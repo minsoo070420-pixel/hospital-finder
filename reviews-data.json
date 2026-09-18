@@ -1,6 +1,5 @@
 {
   "_readme": "Review summaries show 'Coming soon' in the app for any hospital without an entry here. Keys must be the hospital's exact OpenStreetMap 'name' tag, lowercased (see insurance-data.json's _readme for naming gotchas). Entries added here are based on actually reading real reviews (Google Maps, etc.) as of the noted date — not invented. Format: \"some hospital name\": { \"rating\": 4.2, \"reviewCount\": 500, \"asOf\": \"2026-09\", \"summary\": \"...\" }.",
-
   "the mount sinai hospital": {
     "rating": 3.4,
     "reviewCount": 1113,
@@ -126,12 +125,6 @@
     "reviewCount": 1103,
     "asOf": "2026-09",
     "summary": "Clinical care draws strong individual praise — patients name specific doctors (a gastroenterologist, a knee-replacement team) for making them feel genuinely cared for and respected, not just processed. The most detailed complaint here is different from typical hospital gripes: a 50-year patient describes the hospital's merger with Franciscan Health/CHI as damaging the patient experience, citing an understaffed front desk and 30-minute check-in waits as a direct consequence of post-merger management decisions rather than clinical care itself. Billing/invoicing is also a notably frequent topic tag."
-  },
-  "vancouver general hospital": {
-    "rating": 3.5,
-    "reviewCount": 816,
-    "asOf": "2026-09",
-    "summary": "Nurses are the single most-mentioned topic of any hospital in this set (87 mentions), with many reviewers naming specific surgeons, nurses, and anesthesiologists as skilled and compassionate — including for major procedures like cancer surgery and for patients with years of repeat ER visits for chronic conditions. Some reviews reflect broader frustration with Canada's public healthcare system and wait times generally rather than hospital-specific complaints; a few cite occasional communication friction with ER staff."
   },
   "st. paul's hospital": {
     "rating": 3.8,
@@ -384,5 +377,29 @@
     "reviewCount": 1946,
     "asOf": "2026-09",
     "summary": "The Emergency Department is the dominant topic by far (307 mentions). One reviewer's account is particularly striking: they describe the physical facility as visibly aged and rundown \"like a hospital in a developing country,\" citing poor staff welfare, inadequate hygiene, and a severely inadequate maintenance budget despite being one of Madrid's major hospitals. A separate reviewer describes feeling dismissed in the ER despite worsening neck pain and arm weakness after 10 days of ineffective prior treatment. Balancing this, another reviewer praises the medical staff broadly for combining strong professionalism with genuine empathy and attentive care for patients and families. Better known as La Paz University Hospital, Madrid."
+  },
+  "hospital das clínicas": {
+    "rating": 4.6,
+    "reviewCount": 105,
+    "asOf": "2026-09",
+    "summary": "Long-time patients describe deep personal loyalty — one reviewer has been treated here since childhood and calls it the best hospital they know, another was born here to parents who met while both working at the hospital and is still treated here today. Set against that, one reviewer describes a serious breakdown in care: arriving with a neurologist's admission referral, being shuffled between buildings, blocked from entering by security, and never actually attended to. Other complaints cite severe understaffing with three sequential check-in desks and hour-plus waits, unfriendly security guards, and dirty bathrooms. A separate listing for the hospital's emergency room (\"Clinical Hospital FMUSP Emergency Room\") is rated 4.1 from 213 reviews. Full name: Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo."
+  },
+  "北京协和医院": {
+    "rating": 4.3,
+    "reviewCount": 21,
+    "asOf": "2026-09",
+    "summary": "Reviews are for the hospital's East Campus listing (\"北京协和医院东院\"), which has more reviews than the main-campus listing. One reviewer praises the international medical environment; a family credits neurosurgery department head Dr. Wang Renzhi, nurse Bao Xinjie, and gastroenterologist Dr. Xiao Yi by name for years of skilled, ethical care. A foreign patient's review is actually an inquiry about breast cancer treatment for a relative rather than feedback on care received here. Review volume is modest for a hospital of this size — treat the sample as limited. Full name: Peking Union Medical College Hospital (PUMCH), China's top-ranked hospital."
+  },
+  "policlinico umberto i": {
+    "rating": 3.2,
+    "reviewCount": 286,
+    "asOf": "2026-09",
+    "summary": "Ratings are sharply polarized (120 five-star vs. 103 one-star out of 286). On the positive side, one reviewer credits the Valdoni surgical ward with saving their life, praising the entire team as professional, kind, and skilled. On the negative side, one reviewer describes a relative's impetigo going undiagnosed and untreated, being isolated unnecessarily in a prefab ward with almost no visits and at least one missed dinner, and a family bathroom with no toilet paper — the family eventually left and got the condition diagnosed and treated within days by a small-town doctor. Another long-time patient says that over 18 years the facilities have aged and staff empathy has declined, describing the hospital as now feeling profit-driven. Frequently mentioned terms include nurses, professors, doctors, and \"the healthcare system\" generally. Opened in 1903 and affiliated with Sapienza University of Rome."
+  },
+  "chris hani baragwanath hospital": {
+    "rating": 3.5,
+    "reviewCount": 570,
+    "asOf": "2026-09",
+    "summary": "One reviewer calls it formerly the largest and best hospital in the world, now \"on the verge of collapse,\" citing chronic drug shortages — a prostate cancer patient was given only 10 days' supply of medication with none in stock for a refill. Against that, a maternity patient describes excellent care throughout: security staff, doctors, and specifically the nurses of Ward 58 praised for patience, helping with breastfeeding and holding her newborn as a first-time mother. A reviewer alleges losing a brother-in-law to what they describe as an easily preventable death in June 2026, criticizing widespread carelessness, lack of empathy, and poor communication among staff — this is a serious, unverified allegation, not a confirmed incident. A family expresses gratitude by name to a Dr. De Freitas for attentive care of a sibling with ascites. Another describes a staff member's rude, dismissive behavior in the MVA department. One of the largest hospitals in the world by bed count, located in Soweto, Johannesburg."
   }
 }
