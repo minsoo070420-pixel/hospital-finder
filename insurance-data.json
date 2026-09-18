@@ -660,5 +660,49 @@
       "Travel/international insurance for other visitors — verify directly"
     ],
     "note": "South Africa has a two-tier system: public hospitals like this one are government-funded and charge low, means-tested fees (or nothing) directly, with no private-insurance billing involved, but face chronic underfunding and overcrowding. Private medical schemes (Discovery, Bonitas, etc.) are used almost exclusively at separate private hospital groups (Netcare, Life Healthcare, Mediclinic), not at public academic hospitals. Chris Hani Baragwanath, in Soweto, Johannesburg, is one of the largest hospitals in the world by bed count."
+  },
+  "hospital de pediatría \"profesor doctor juan pedro garrahan\"": {
+    "insurances": [
+      "Free for all patients (fully public, government-funded pediatric hospital) — no insurance needed",
+      "Obra social coverage not required, but patients with one may still be asked for it administratively",
+      "OSDE",
+      "Swiss Medical",
+      "Galeno",
+      "Travel/international insurance for foreign visitors — verify directly"
+    ],
+    "note": "Hospital Garrahan is a fully public, national-government-funded pediatric hospital — treatment is free for all children regardless of insurance status or nationality, reflecting Argentina's broader public-hospital system that provides free care to anyone in the country. Private \"obras sociales\" (union/employer health funds) and \"prepagas\" (private prepaid plans like OSDE and Swiss Medical) are Argentina's main insurance types generally, but are mainly used for private clinics rather than this hospital. Widely regarded as one of Latin America's leading pediatric hospitals."
+  },
+  "uniwersyteckie centrum kliniczne wum": {
+    "insurances": [
+      "Narodowy Fundusz Zdrowia / NFZ (Poland's national public health insurance) — free or low-cost for insured residents",
+      "EU/EHIC reciprocal coverage for many European visitors",
+      "LuxMed",
+      "Medicover",
+      "Allianz Polska",
+      "Travel/international insurance for other visitors — verify directly"
+    ],
+    "note": "Poland's NFZ is a mandatory, payroll-funded national health insurance system — residents get free or low-cost care at public hospitals like this one, though non-urgent specialist care can involve long waits. Private insurers/subscription clinics (LuxMed, Medicover) are common as supplemental coverage for faster access, especially through employers. This is the Medical University of Warsaw's main clinical hospital on Banacha street — Google Maps lists it under a mix of current and older names (\"Centralny Szpital Kliniczny WUM\")."
+  },
+  "مستشفي ابو الريش الجامعي للاطفال بالمنيرة": {
+    "insurances": [
+      "Free for most patients (public/charity-funded children's hospital, part of Cairo University) — donations requested to support care",
+      "Universal Health Insurance / UHI (Egypt's national scheme, being rolled out gradually by region)",
+      "Health Insurance Organization (HIO) for eligible formal-sector workers",
+      "AXA Egypt",
+      "MetLife Egypt",
+      "Travel/international insurance for foreign visitors — verify directly"
+    ],
+    "note": "As a Cairo University-affiliated public children's hospital, care here is largely free and reliant on public funding and donations rather than insurance billing — several reviewers specifically encourage others to donate to support treatment for children whose families can't pay. Egypt's newer Universal Health Insurance law is being phased in region by region, alongside the older Health Insurance Organization for formal employees and a private insurance market for Egypt's separate private-hospital sector. Known in English as Abu El Reesh (or Abu Al-Rish) University Children's Hospital."
+  },
+  "bệnh viện chợ rẫy": {
+    "insurances": [
+      "Bảo hiểm y tế / BHYT (Vietnam's national health insurance) — covers a large share of costs for insured residents, especially with a referral",
+      "Vietnam Social Security (BHXH)-administered supplementary schemes",
+      "Bảo Việt",
+      "Prudential Vietnam",
+      "Manulife Vietnam",
+      "Travel/international insurance for foreign visitors — verify directly"
+    ],
+    "note": "Vietnam's national BHYT health insurance covers the majority of the population and pays a large share of costs at public hospitals, but reimbursement is highest when patients go through a referral from a lower-tier facility first — going directly to a top-tier hospital like this one without one usually means a lower reimbursement rate. Private insurers are commonly used as supplemental coverage or by foreign residents. Cho Ray Hospital is Vietnam's largest and one of its most prestigious hospitals, drawing patients referred from across the southern half of the country."
   }
 }
