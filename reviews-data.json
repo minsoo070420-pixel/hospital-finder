@@ -1,0 +1,388 @@
+{
+  "_readme": "Review summaries show 'Coming soon' in the app for any hospital without an entry here. Keys must be the hospital's exact OpenStreetMap 'name' tag, lowercased (see insurance-data.json's _readme for naming gotchas). Entries added here are based on actually reading real reviews (Google Maps, etc.) as of the noted date — not invented. Format: \"some hospital name\": { \"rating\": 4.2, \"reviewCount\": 500, \"asOf\": \"2026-09\", \"summary\": \"...\" }.",
+
+  "the mount sinai hospital": {
+    "rating": 3.4,
+    "reviewCount": 1113,
+    "asOf": "2026-09",
+    "summary": "Mixed reviews overall. Recurring praise: several patients single out specific doctors and nurses — especially in the ER and oncology/cancer care — for compassionate, attentive treatment during difficult visits. Recurring complaints: long wait times, inconsistent communication, and follow-up/aftercare that some families felt was disorganized for complex, ongoing conditions. Based on reading a sample of reviews plus Google's review-topic tags (nurses, phone calls, cancer, and follow-up messaging were the most-mentioned topics)."
+  },
+  "massachusetts general hospital": {
+    "rating": 3.8,
+    "reviewCount": 913,
+    "asOf": "2026-09",
+    "summary": "Ratings are bimodal (mostly 5-star and 1-star), which is typical for large hospitals. Strong recurring praise for the Labor & Delivery unit and ER, with patients repeatedly naming individual nurses as compassionate and reassuring, plus several accounts of life-saving specialist treatment for rare or complex conditions. The most serious complaints come from high-risk patients who felt dismissed or discharged too early, alongside general front-desk/communication friction."
+  },
+  "johns hopkins hospital": {
+    "rating": 3.3,
+    "reviewCount": 1116,
+    "asOf": "2026-09",
+    "summary": "Sharply bimodal ratings (565 five-star vs. 411 one-star out of 1,116). Positive reviews consistently praise nursing and medical staff's compassion and expertise for complex care such as cancer treatment and childbirth. The Emergency Department is by far the most-discussed and most-complained-about topic (107 mentions of \"ER\" alone in Google's topic tags), with recurring accounts of long waits and a confusing, impersonal intake process."
+  },
+  "cedars-sinai medical center": {
+    "rating": 3.4,
+    "reviewCount": 1591,
+    "asOf": "2026-09",
+    "summary": "Nurses get the most topic mentions of any hospital reviewed here (74), with real praise for clinical care and specialists who coordinated urgent transfers/interventions patients credit with major outcomes. But there's a serious recurring complaint pattern: multiple reviewers cite ER wait times of 8+ hours, non-medical/support staff described as curt or unhelpful especially toward families in ICU waiting areas, and some complaints about facility cleanliness and upkeep."
+  },
+  "nyu langone health - tisch hospital": {
+    "rating": 4.0,
+    "reviewCount": 386,
+    "asOf": "2026-09",
+    "summary": "Notably more consistently positive than the other major hospitals summarized here. Recurring themes: warm, attentive nursing staff; strong maternity/labor-and-delivery experiences called out by multiple reviewers; and positive accounts of complex surgical and cardiac care with patients naming specific doctors as thorough and reassuring. Fewer visible complaints in this sample, though the ER is still a frequently-mentioned topic."
+  },
+  "vancouver general hospital": {
+    "rating": 3.5,
+    "reviewCount": 816,
+    "asOf": "2026-09",
+    "summary": "Nurses are the single most-mentioned topic of any hospital in this set (87 mentions), with many reviewers naming specific surgeons, nurses, and anesthesiologists as skilled and compassionate — including for major procedures like cancer surgery and for patients with years of repeat ER visits for chronic conditions. Some reviews reflect broader frustration with Canada's public healthcare system and wait times generally rather than hospital-specific complaints; a few cite occasional communication friction with ER staff."
+  },
+  "삼성서울병원": {
+    "rating": 3.9,
+    "reviewCount": 548,
+    "asOf": "2026-09",
+    "summary": "Highest average rating among the hospitals summarized here. Nursing staff are strongly and repeatedly praised, especially on specialized wards like oncology, described as highly professional and compassionate. The most common complaint is practical rather than clinical: the multi-building campus (main building, annex, cancer center) is confusing to navigate, with reviewers citing unclear maps/signage and inconsistent directions from staff. A few reviewers found checkup-style visits felt rushed or impersonal. English name: Samsung Medical Center."
+  },
+  "cleveland clinic": {
+    "rating": 3.4,
+    "reviewCount": 1287,
+    "asOf": "2026-09",
+    "summary": "Reviews reflect the hospital's specialty reputation — multiple reviewers praise complex cardiac surgery, organ transplant, and complicated GI/surgical cases, several explicitly comparing it favorably to other top-tier hospitals (Mayo Clinic, Northwestern). Front-desk/admissions staff are specifically praised for helping arrange urgent transfers from other hospitals. Recurring complaints center on billing/invoicing disputes (frequent enough that an ombudsman process is commonly mentioned) and occasional inconsistent care on specific wards during single admissions, even among patients with otherwise good histories there."
+  },
+  "stanford hospital": {
+    "rating": 3.8,
+    "reviewCount": 90,
+    "asOf": "2026-09",
+    "summary": "Smaller review sample than most hospitals here. Most reviews are strongly positive, with patients naming specific doctors and describing attentive, respectful nursing care and successful treatment for serious conditions — one reviewer credits the team with extending a parent's life with myelofibrosis. The most serious complaint in this sample: a patient with a broken ankle says they were turned away without treatment, unfavorably contrasting it with a nearby hospital that operated within 24 hours."
+  },
+  "newyork-presbyterian / weill cornell medical center": {
+    "rating": 3.6,
+    "reviewCount": 955,
+    "asOf": "2026-09",
+    "summary": "Bimodal ratings (558 five-star vs. 260 one-star). Positive reviews praise knowledgeable, dedicated nurses and doctors, world-class specialists, and continuously upgraded facilities/amenities. Google's topic tags point to the Emergency Department, bed availability, and security as the most-discussed subjects — including at least one serious complaint about a conflict with ER staff that escalated to hospital security."
+  },
+  "duke university hospital": {
+    "rating": 3.2,
+    "reviewCount": 979,
+    "asOf": "2026-09",
+    "summary": "Sharply bimodal ratings (459 five-star vs. 355 one-star, unusually close for this set). Every review readable in this sample was strongly positive, specifically praising the nursing staff (the single most-mentioned topic, 66 mentions) as excellent and well-coordinated. Given the large one-star share and topic tags around waiting rooms, front desk, and walking distances on the sprawling campus, the negative half likely centers on wait times and campus logistics rather than clinical quality — though no negative review surfaced directly in this sample to confirm that."
+  },
+  "houston methodist hospital": {
+    "rating": 3.6,
+    "reviewCount": 1189,
+    "asOf": "2026-09",
+    "summary": "Nursing staff are the dominant positive theme (84 topic mentions, among the highest of any hospital in this set), and multiple reviewers specifically praise the transplant program for treating patients compassionately regardless of age or insurance status. Every review readable in this sample was strongly positive — private rooms, attentive staff, specific nurses and aides named gratefully. No serious complaints surfaced, though this is a small slice of 1,189 total reviews."
+  },
+  "northwestern memorial hospital": {
+    "rating": 3.4,
+    "reviewCount": 1136,
+    "asOf": "2026-09",
+    "summary": "Bimodal ratings (601 five-star vs. 365 one-star). Detailed review text was limited in the available sample (Google showed a restricted view), but the most substantive account describes a very positive birth/delivery experience with attentive staff. Topic tags point to the Emergency Department as by far the most-discussed subject (61 mentions, more than any other topic), alongside waiting rooms and security — consistent with ER wait times likely driving much of the negative share, though no detailed negative review could be read directly to confirm that."
+  },
+  "denver health medical center": {
+    "rating": 4.0,
+    "reviewCount": 3258,
+    "asOf": "2026-09",
+    "summary": "One of the higher average ratings and largest review counts in this set (2,217 five-star vs. 680 one-star). Nurses are by far the most-discussed topic (139 mentions). Specialty clinics get specific praise — bariatric surgery and ophthalmology patients describe efficient, attentive, professional care with named providers. The clearest complaint theme: at least one detailed account of a nurse behaving unprofessionally and dismissively toward a patient's family in front of student nurses, raising concerns about training culture, though this was one specific account rather than a dominant pattern in the sample read."
+  },
+  "hospital of the university of pennsylvania": {
+    "rating": 3.2,
+    "reviewCount": 730,
+    "asOf": "2026-09",
+    "summary": "Bimodal ratings (337 five-star vs. 279 one-star). Positive reviews describe attentive nursing care and a comfortable overall stay. But there are specific, detailed negative accounts: one high-risk pregnancy patient felt maternal-fetal medicine specialists seemed uncertain about her case despite transferring there specifically for their expertise, and another visitor describes inconsistent, confusing visiting-hours enforcement. Topic tags around room assignment, triage, and waiting suggest logistics and communication are recurring friction points."
+  },
+  "vanderbilt university medical center": {
+    "rating": 3.4,
+    "reviewCount": 1393,
+    "asOf": "2026-09",
+    "summary": "Bimodal ratings (717 five-star vs. 450 one-star). Nurses are the most-mentioned topic (100), with reviewers specifically praising diagnostic accuracy and successful surgical intervention after other hospitals had missed a diagnosis. Inpatient stays get consistent praise for cleanliness and courteous staff. The ER is the clearest recurring weak point: multiple complaints describe cramped, dirty waiting areas, hallway beds, and at least one account of being pressed for payment during an emergency visit."
+  },
+  "emory university hospital": {
+    "rating": 3.8,
+    "reviewCount": 1297,
+    "asOf": "2026-09",
+    "summary": "Bimodal ratings (771 five-star vs. 301 one-star). Cancer care draws specific, detailed praise — one reviewer calls it the best place for cancer treatment, crediting a named oncologist and the radiation/chemo teams for thorough communication and side-effect management. A liver transplant patient's account is more mixed: steady pre-transplant care, but communication with the radiology department's leadership was described as \"the worst,\" and the patient felt under-informed about the transplant process itself despite years of prior treatment."
+  },
+  "jackson memorial hospital": {
+    "rating": 2.9,
+    "reviewCount": 1902,
+    "asOf": "2026-09",
+    "summary": "The lowest average rating among the hospitals summarized here, despite most individual reviews readable in this sample being quite positive about clinical care: nurses are consistently praised by name and role — a burn patient with 65%+ body burns and a grandmother's fall/hospitalization both single out nursing care as excellent. Topic tags (phone communication, finance/billing, and even lawsuits and hospital leadership) suggest the lower overall average is driven more by operational and administrative friction than bedside care. One detailed pregnancy-related review described a complication-filled C-section day but was cut off before its resolution."
+  },
+  "banner university medical center phoenix": {
+    "rating": 3.1,
+    "reviewCount": 2028,
+    "asOf": "2026-09",
+    "summary": "Nurses dominate the topic tags by a wide margin (218 mentions, the highest of any hospital in this set), and specialty teams get extensive individual praise — rheumatology, cardiology, and liver-disease specialists are named for accurate diagnosis and thorough communication. Topic tags point to a strong maternity/NICU and stroke/cardiac program (baby, C-section, NICU, stroke, cardiac surgery, and heart transplant are all frequently mentioned). Reviews sampled were predominantly very positive, describing compassionate care during frightening health crises; no serious complaint surfaced directly in this sample."
+  },
+  "mayo clinic saint marys campus": {
+    "rating": 3.8,
+    "reviewCount": 595,
+    "asOf": "2026-09",
+    "summary": "Every review readable in this sample was strongly positive, consistently naming specific surgeons, nurses, and care teams — a pattern of gratitude reviews thanking individual staff across pre-op, surgery, and recovery. Reviewers specifically praise the combination of advanced, specialized medicine (heart surgery, throat surgery) with attentive, compassionate bedside care, and note comfortable accommodations including private rooms and visitor sofa beds. No negative themes surfaced in this sample."
+  },
+  "virginia mason hospital & seattle medical center": {
+    "rating": 3.9,
+    "reviewCount": 1103,
+    "asOf": "2026-09",
+    "summary": "Clinical care draws strong individual praise — patients name specific doctors (a gastroenterologist, a knee-replacement team) for making them feel genuinely cared for and respected, not just processed. The most detailed complaint here is different from typical hospital gripes: a 50-year patient describes the hospital's merger with Franciscan Health/CHI as damaging the patient experience, citing an understaffed front desk and 30-minute check-in waits as a direct consequence of post-merger management decisions rather than clinical care itself. Billing/invoicing is also a notably frequent topic tag."
+  },
+  "vancouver general hospital": {
+    "rating": 3.5,
+    "reviewCount": 816,
+    "asOf": "2026-09",
+    "summary": "Nurses are the single most-mentioned topic of any hospital in this set (87 mentions), with many reviewers naming specific surgeons, nurses, and anesthesiologists as skilled and compassionate — including for major procedures like cancer surgery and for patients with years of repeat ER visits for chronic conditions. Some reviews reflect broader frustration with Canada's public healthcare system and wait times generally rather than hospital-specific complaints; a few cite occasional communication friction with ER staff."
+  },
+  "st. paul's hospital": {
+    "rating": 3.8,
+    "reviewCount": 901,
+    "asOf": "2026-09",
+    "summary": "Every review readable in this sample was strongly positive, with patients consistently naming specific doctors, nurses, and midwives across surgery, maternity, ER, and gynecology for skilled, compassionate, multilingual care — interpretation services were specifically praised twice. Topic tags around homelessness and addiction reflect the hospital's downtown Vancouver location serving a population with significant social needs, alongside general commentary about Canada's healthcare system seen at other Canadian hospitals in this set. No negative review surfaced in this sample."
+  },
+  "uc medical center moffett & long hospitals": {
+    "rating": 3.5,
+    "reviewCount": 363,
+    "asOf": "2026-09",
+    "summary": "Strong recurring praise for neurology, organ transplant, and women's health specialties, with multiple reviewers describing cutting-edge treatment and clear, compassionate communication from staff — one credits a neurological procedure with saving her husband's life. The most serious concern in this sample is a single review containing an unverified, uncorroborated allegation of a patient death from an anesthesia error during brain surgery; this is one reviewer's claim that cannot be confirmed, not an established fact, but it exists in the review record. Parking is also flagged as difficult, with a shuttle recommended. English name: UCSF Medical Center."
+  },
+  "nyc health + hospitals/bellevue": {
+    "rating": 4.4,
+    "reviewCount": 6429,
+    "asOf": "2026-09",
+    "summary": "The highest average rating and by far the largest review count among the hospitals summarized here. Despite the strong overall average, the specific reviews readable in this sample were more mixed than that number suggests: alongside genuine praise (helpful front-desk staff who remember patients by name, complimentary transportation services, a surgeon praised for good doctor-patient rapport), there are also serious complaints about neglectful or unresponsive nursing care and one account of a 10+ hour ER wait described as \"torture.\" \"Caution\"/warning-style mentions were the single most frequent topic tag (175 mentions, more than any other hospital in this set) — worth reading a wider sample given how large and heterogeneous this hospital's patient population and services are."
+  },
+  "서울대학교병원": {
+    "rating": 3.9,
+    "reviewCount": 157,
+    "asOf": "2026-09",
+    "summary": "A much smaller review sample than most hospitals in this set. Reviewers consistently praise SNUH's medical and diagnostic quality and its reputation as one of Korea's top hospitals for handling serious or complex illness — several call it the best in the country. But more than one reviewer specifically notes that the bedside-manner/service experience doesn't match the clinical quality, describing accurate, non-over-treating care at reasonable prices but limited warmth. Parking is also flagged as a practical annoyance due to ongoing construction. English name: Seoul National University Hospital."
+  },
+  "서울아산병원": {
+    "rating": 3.9,
+    "reviewCount": 583,
+    "asOf": "2026-09",
+    "summary": "Skews positive overall (314 five-star vs. 88 one-star). Topic tags point to nurses as the most-discussed subject, alongside hospital systems/policies, parking, and waiting times. One reviewer describes the integrated nursing-care ward's strict no-visitor, no-direct-family-drop-off policy as inconvenient, though this reflects hospital policy rather than a service failure; the underground parking garage in the newer building is also described as confusing, with many opting for external parking instead. Reviews read were otherwise positive but light on detail. English name: Asan Medical Center."
+  },
+  "세브란스병원": {
+    "rating": 3.8,
+    "reviewCount": 553,
+    "asOf": "2026-09",
+    "summary": "Bimodal-leaning ratings (306 five-star vs. 110 one-star). A pediatric ward nurse is specifically named and praised for comforting anxious parents around children's surgery with warmth and kindness — nursing care is the most-mentioned topic (21). One detailed negative account specifically warns against the dental department, describing residents and interns treating a patient without gloves or masks before the attending physician's exam, and feeling uncomfortably stared at post-surgery. Waiting times and cost are also frequently-mentioned topics. English name: Severance Hospital."
+  },
+  "가톨릭대학교 서울성모병원": {
+    "rating": 4.0,
+    "reviewCount": 447,
+    "asOf": "2026-09",
+    "summary": "One of the higher average ratings among the Korean hospitals summarized here. Reviewers consistently place it among Korea's \"Big 5\" hospitals, praising overwhelming facility quality and cleanliness, with staff generally described as kind. Recurring notes are practical rather than clinical: the campus is very large and can be hard to navigate to find a specific ward, it isn't directly subway-connected (a street crossing is needed), and driving there is discouraged in favor of transit. English name: Seoul St. Mary's Hospital (The Catholic University of Korea)."
+  },
+  "강북삼성병원": {
+    "rating": 3.7,
+    "reviewCount": 145,
+    "asOf": "2026-09",
+    "summary": "Praise centers on specialized departments — a dedicated hand-surgery orthopedics unit is called out for more expert care — and one striking account from a long-time US resident visiting Korea who needed emergency treatment for a sudden respiratory crisis, calling the staff's systematic coordination outstanding. Recurring practical complaints: surgery scheduling can take a long time (similar to other general hospitals), and parking is a significant pain point during ongoing facility expansion, with waits up to 30 minutes just to enter the garage. English name: Kangbuk Samsung Hospital."
+  },
+  "이대목동병원": {
+    "rating": 3.0,
+    "reviewCount": 155,
+    "asOf": "2026-09",
+    "summary": "The lowest average rating and most negative-leaning reviews among the Korean hospitals summarized here. One reviewer had a good first-visit experience with helpful reception and clear directions staff, but others describe serious problems: a rude call-center interaction over rescheduling a follow-up appointment, an ER intake nurse allegedly turning away a patient who'd already received some treatment elsewhere, and one detailed account of a failed surgery that led to a lawsuit and a court-mediated settlement without the reviewer ever receiving an apology. Nurses and wait times are the most-discussed topics. English name: Ewha Womans University Mokdong Hospital."
+  },
+  "건국대학교병원": {
+    "rating": 3.8,
+    "reviewCount": 152,
+    "asOf": "2026-09",
+    "summary": "Ward 82 and its neurosurgery-department nursing staff are repeatedly and specifically praised as warm and caring across multiple reviews. But there's a recurring administrative complaint: one reviewer describes hospital management and policies — illustrated by wheelchair-availability issues — as burdensome despite \"patient-centered\" signage, and another criticizes a specific attending neurosurgeon's dismissive, smirking bedside manner when discussing a patient's condition with family, alongside describing ICU shift handoffs as disorganized. Accessibility (direct subway connection) and facility quality get consistent praise. English name: Konkuk University Medical Center."
+  },
+  "한양대학교의료원": {
+    "rating": 3.7,
+    "reviewCount": 150,
+    "asOf": "2026-09",
+    "summary": "Every review readable in this sample was positive about clinical care — attending physicians explain things clearly, nurses are attentive on repeat visits, and one reviewer credits systematic inpatient rounds and monitoring for reassurance during a parent's hospitalization. The single most consistent complaint isn't about care quality at all: the hospital sits on a steep hill, making it hard to walk to from the subway, with multiple reviewers recommending the shuttle bus or the internal connecting corridors and elevators between buildings instead. English name: Hanyang University Seoul Hospital."
+  },
+  "아주대학교병원": {
+    "rating": 3.1,
+    "reviewCount": 204,
+    "asOf": "2026-09",
+    "summary": "A more negative-leaning sample than most hospitals in this set (note: Google splits this campus across several listings — this uses the one sharing the hospital's exact address with the largest review count). A specific nephrology professor is praised for thorough, accurate care, and older reviews call it one of the country's best by reputation and scale. But recent reviews include serious concerns: a detailed account of a doctor's insensitive reaction during a cancer diagnosis, a strong warning against the pediatrics department for alleged over-treatment, misdiagnosis, and repeated billing charges, and one review referencing the loss of a child that hopes for a full investigation — a serious, unverified claim that cannot be confirmed but exists in the review record. Parking is also flagged as difficult. English name: Ajou University Hospital, nationally known for its Level I trauma center, though these specific reviews didn't discuss that program."
+  },
+  "부산대학교병원": {
+    "rating": 3.8,
+    "reviewCount": 242,
+    "asOf": "2026-09",
+    "summary": "Bimodal-leaning ratings (141 five-star vs. 54 one-star). One reviewer credits a neurosurgery professor with successful emergency treatment of a ruptured brain aneurysm (subarachnoid hemorrhage) during a holiday, expressing strong gratitude. Good public-transit accessibility is repeatedly noted (very close to a subway station). Recurring complaints: long waits even with an appointment (about 2 hours for routine ophthalmology testing was cited), and specifically poor front-desk communication at one building — large monitors blocking the reception counter and staff speaking too quietly to be heard, which one reviewer says is especially hard on elderly patients. English name: Pusan National University Hospital, Busan."
+  },
+  "evanston hospital": {
+    "rating": 3.0,
+    "reviewCount": 455,
+    "asOf": "2026-09",
+    "summary": "One of the most polarized ratings in this set (193 five-star vs. 197 one-star, nearly an even split). Positive reviews describe responsive staff and good psychiatric and maternity care experiences. But there's a striking negative account: a patient describes a specialist who left mid-appointment to make a personal dinner reservation call, dismissed their symptoms, and then billed over $200 for the visit. The Emergency Department is by far the most-discussed topic overall (64 mentions). Now branded Endeavor Health Evanston Hospital (formerly NorthShore)."
+  },
+  "edward hospital": {
+    "rating": 4.3,
+    "reviewCount": 3370,
+    "asOf": "2026-09",
+    "summary": "One of the highest average ratings and largest review counts in this set. Nurses are overwhelmingly the most-praised element (192 mentions), with reviewers crediting them for compassionate care through everything from a pediatric needle-phobia visit to a 37-day ICU stay to childbirth. The most detailed complaint is narrower: a post-gastrectomy patient says staff failed to track her restricted diet throughout her stay, resulting in an inappropriate meal being sent on discharge day. Part of Endeavor Health (formerly Edward-Elmhurst Health)."
+  },
+  "osf saint francis medical center": {
+    "rating": 3.1,
+    "reviewCount": 640,
+    "asOf": "2026-09",
+    "summary": "Very bimodal (273 five-star vs. 256 one-star, nearly even). ER wait times are a serious, recurring complaint: multiple reviewers describe 4-7 hour waits with minimal care (basic tests but no physician visit) and dismissed pain concerns. One reviewer alleges serious documentation and protocol inconsistencies around a labor-and-delivery case — a serious claim that cannot be verified but is present in the review record. On the positive side, reviewers single out specific named surgeons for good post-surgical recovery support, with one noting the hospital's quality has recently improved after a period of poor reputation."
+  },
+  "saint anthony medical center": {
+    "rating": 3.4,
+    "reviewCount": 942,
+    "asOf": "2026-09",
+    "summary": "ER experiences are highly mixed: some reviewers praise clear communication and attentive nurses even through long waits, while others describe overnight staff needing improvement and unattended waits. The most serious complaint is a maternity account: a first-time mother says she was left unattended for 8 hours awaiting labor induction, that her doctor made delivery decisions unilaterally without consulting her, and that postpartum care for both her and the baby was inadequate. Branded OSF Saint Anthony Medical Center."
+  },
+  "uw health swedishamerican hospital": {
+    "rating": 3.6,
+    "reviewCount": 1098,
+    "asOf": "2026-09",
+    "summary": "Radiology and imaging staff draw specific praise for going out of their way to make anxious patients comfortable — one reviewer describes staff playing requested music and offering a blindfold during an MRI to ease claustrophobia, another describes a staff member personally driving them home. One notable mistake: an ultrasound technician revealed a baby's sex despite the patient repeatedly asking not to know, ahead of a planned gender-reveal party. The most serious complaint describes being stuck in a shared room with a disruptive roommate for four days, with repeated room-change requests ignored by both nurses and a supervisor."
+  },
+  "memorial medical center": {
+    "rating": 2.8,
+    "reviewCount": 431,
+    "asOf": "2026-09",
+    "summary": "The lowest average rating among the Illinois hospitals summarized here. ICU care draws specific, strong praise — a named nurse is singled out for exceptional care during a family member's repeated stroke-related hospitalizations — but front-desk and general ward experiences are a recurring problem: multiple reviewers describe rude or dismissive staff, ignored call bells, and confusing ER triage order with 6+ hour waits and no explanation given. Understaffing is explicitly named as a topic by one reviewer; another criticizes visitor-badge security procedures as excessive during an already stressful ICU stay. Now branded Springfield Memorial Hospital."
+  },
+  "carle foundation hospital": {
+    "rating": 2.8,
+    "reviewCount": 643,
+    "asOf": "2026-09",
+    "summary": "Nursing care draws strong specific praise across serious cases — childbirth (two nurses thanked by name), a father's fall with multiple fractures, and ICU-level infection care for a patient transferred from out of state. But insurance/billing is the second-most-mentioned topic overall (49 mentions, just behind nurses), suggesting billing disputes are a significant recurring friction point, and one reviewer describes a nurse rushing physical therapy and pushing early medication administration against the patient's own schedule. ER wait times are also frequently flagged, though several reviewers say the subsequent inpatient care made up for it."
+  },
+  "경북대학교병원": {
+    "rating": 3.4,
+    "reviewCount": 135,
+    "asOf": "2026-09",
+    "summary": "A smaller review sample than most hospitals in this set. A specific cardiology doctor is praised by name for empathetic care, and the hospital carries strong regional prestige as Daegu's oldest and most representative hospital (100+ year history). But there are pointed complaints too: one reviewer describes a cancer specialist as unfriendly and uncooperative with other staff, and another describes a same-day procedure cancellation with only 1-2 hours' notice after the patient had rearranged their schedule. English name: Kyungpook National University Hospital, Daegu."
+  },
+  "충남대학교병원": {
+    "rating": 3.2,
+    "reviewCount": 148,
+    "asOf": "2026-09",
+    "summary": "A smaller review sample. The most consistent complaint is administrative: one reviewer describes the phone system as broken for months, with no way to reach the hospital or specific departments by phone, forcing in-person visits to get anything done. Positive reviews mention a broad range of specialty departments and note that ER staff worked hard for patients even during a busy shift. A couple of reviewers name specific doctors (an ophthalmology professor, a cardiology specialist) approvingly. English name: Chungnam National University Hospital, Daejeon."
+  },
+  "전남대학교병원": {
+    "rating": 3.6,
+    "reviewCount": 99,
+    "asOf": "2026-09",
+    "summary": "The smallest review sample among the Korean hospitals summarized here. Reviews are largely practical rather than clinical: reviewers describe the hospital as a huge, maze-like complex facing a rival hospital across the street, often overcrowded, with complaints about overflowing restroom trash and confusing corridor navigation. One reviewer describes urgent eye-care triage (a corneal ulcer) requiring an ER route since no ophthalmology appointment existed, and another still resents unclear, jargon-heavy consent-form paperwork from a past visit years ago. A brief positive review credits kind staff and a successful surgery. English name: Chonnam National University Hospital, Gwangju."
+  },
+  "가천대 길병원": {
+    "rating": 3.6,
+    "reviewCount": 145,
+    "asOf": "2026-09",
+    "summary": "A smaller review sample. Founded by a pioneering OB-GYN and now regarded as one of Incheon's largest general hospitals. The most frequently tagged complaint topic, despite the small sample, is \"over-treatment\" (과잉진료) — one reviewer describes extensive testing, including an MRI, for wrist pain that ultimately resulted in medication only, feeling the workup was more extensive than the outcome warranted. Another reviewer calls it clean and solidly good for the Incheon area overall. English name: Gachon University Gil Medical Center, Incheon."
+  },
+  "東京大学医学部附属病院": {
+    "rating": 3.4,
+    "reviewCount": 651,
+    "asOf": "2026-09",
+    "summary": "Bimodal ratings (245 five-star vs. 162 one-star). Topic tags are dominated by administrative themes rather than clinical ones: health checkups (77 mentions, the most of any topic), billing (37), and referral letters (25) — consistent with this being one of Japan's flagship \"special function\" teaching hospitals, which charge an extra fee to patients who arrive without a referral letter from a smaller clinic. Reviews mention nickel-and-dime fees (e.g. paid Wi-Fi in general wards) and note that as a teaching hospital, trainees may be present during procedures. English name: The University of Tokyo Hospital."
+  },
+  "聖路加国際病院": {
+    "rating": 3.5,
+    "reviewCount": 864,
+    "asOf": "2026-09",
+    "summary": "This hospital's international-patient orientation shows clearly in its reviews: several are from travelers who needed emergency care in Tokyo and specifically praise being treated with good English communication, patience, and kindness even during holiday or night hours when running on reduced staff. One detailed negative account accuses the hospital of stringing along a patient who requested an urgent MRI without actually expediting it — i.e. of prioritizing billable process over efficient care. Topic tags around referral letters and primary-physician requirements reflect the same \"special function hospital\" referral system seen at other major Japanese teaching hospitals. English name: St. Luke's International Hospital, Tokyo."
+  },
+  "京都大学医学部附属病院": {
+    "rating": 3.7,
+    "reviewCount": 372,
+    "asOf": "2026-09",
+    "summary": "Strong specific praise across multiple reviews: a long-time patient values the university hospital's thorough 40-50 minute appointments over quick small-clinic visits, a named orthopedic surgeon is praised as gentle and kind, and a Spanish traveler credits the entire emergency gallbladder surgery team — especially a named surgeon — with excellent, compassionate care despite a language barrier. The most pointed complaint singles out a specific gynecologist as dismissive and unwilling to listen, contrasted directly against another named doctor in the same review whom the patient calls excellent and trustworthy. English name: Kyoto University Hospital."
+  },
+  "九州大学病院": {
+    "rating": 3.3,
+    "reviewCount": 568,
+    "asOf": "2026-09",
+    "summary": "Bimodal ratings (203 five-star vs. 161 one-star). Clinical care draws real praise: a neurosurgery inpatient credits their attending doctor with clear, reassuring communication throughout hospitalization, and an OB-GYN patient describes midwives and nurses as gentle and calming during a high-risk first pregnancy. But there are pointed staff-conduct complaints unrelated to clinical care: a blood-draw nurse described as rushed and dismissive without eye contact, and a separate account of a non-clinical staff member behaving unprofessionally (sleeping on the job, reacting angrily to a minor request) in the hospital's public dining area. English name: Kyushu University Hospital, Fukuoka."
+  },
+  "北海道大学病院": {
+    "rating": 3.3,
+    "reviewCount": 370,
+    "asOf": "2026-09",
+    "summary": "Pediatric care draws consistent praise — multiple reviewers describe doctors speaking gently and patiently even with anxious or resistant child patients. Complaints are mostly about communication and process clarity rather than harshness: one patient missed being called for an X-ray because a separate, unannounced registration step wasn't explained; another describes some doctors giving overly technical answers or multitasking while talking rather than being fully present. On-site amenities (a café, a convenience store, even a small plant greenhouse) get an unusually detailed practical shoutout from one reviewer. English name: Hokkaido University Hospital, Sapporo."
+  },
+  "名古屋大学医学部附属病院": {
+    "rating": 3.3,
+    "reviewCount": 409,
+    "asOf": "2026-09",
+    "summary": "Inpatient clinical experiences draw strong praise — a cataract surgery patient credits kind nurses and better-than-expected hospital food, and a bladder cancer patient wrote a glowingly grateful review from their hospital bed the night before a successful discharge. But phone-based administrative contact is a serious sore point: one reviewer describes being placed on hold repeatedly by a switchboard operator who ultimately said a supervisor authorized hanging up on them mid-complaint. Health checkups and phone communication are the two most-discussed topics overall. English name: Nagoya University Hospital."
+  },
+  "st thomas' hospital": {
+    "rating": 4.2,
+    "reviewCount": 1622,
+    "asOf": "2026-09",
+    "summary": "One of the higher average ratings and largest review counts in this set. Famously linked to Florence Nightingale's nursing legacy, and includes a COVID memorial wall on site that one visitor found moving. Topic tags point to the ER and maternity/midwifery services as the most-discussed aspects by far. The one detailed complaint readable in this sample is from a tourist who developed sudden tonsillitis: a very long wait just to complete registration paperwork, followed by another long wait for treatment — a pattern consistent with general NHS emergency department demand rather than anything specific to this hospital."
+  },
+  "campus charité mitte": {
+    "rating": 3.0,
+    "reviewCount": 267,
+    "asOf": "2026-09",
+    "summary": "The main campus listing (3.0/267) carries little review detail itself. Its Emergency Department has a separate, far more heavily-reviewed listing (2.4/533) that likely better reflects most patients' actual experience: positive accounts describe fast, professional, reassuring care for serious allergic reactions and sudden chest pain, but the most detailed complaint notes that despite Charité's global reputation (one reviewer cites a top-10 world ranking), the ER itself feels outdated and undersized for the hospital's scale — that reviewer waited 6 hours despite the department not appearing particularly busy. Charité is split across several campuses in OSM/Google; this covers Campus Charité Mitte specifically."
+  },
+  "hôpital pitié-salpêtrière": {
+    "rating": 3.2,
+    "reviewCount": 2265,
+    "asOf": "2026-09",
+    "summary": "One of the largest review counts in this set, and sharply split. Some reviewers praise the hospital's overall medical reputation and competence as \"undisputed\" and efficient across nearly every specialty, describing staff as attentive and warm. But there are serious complaints too, especially around the maternity ward — one reviewer describes being assigned a room with substandard hygiene and amenities for four days around a scheduled delivery. ER wait times also draw sharp sarcasm from at least one reviewer describing multi-hour waits. Notably, dental emergencies and oral medicine are the single most-discussed topics in Google's tag summary, suggesting the hospital's dental/oral emergency department draws particular reviewer attention."
+  },
+  "royal prince alfred hospital": {
+    "rating": 3.6,
+    "reviewCount": 947,
+    "asOf": "2026-09",
+    "summary": "Multiple Korean-speaking patients specifically highlight the hospital's Korean-language translation service as making a real difference in feeling cared for and understood during surgery and recovery. A cardiothoracic surgery patient names an entire care team — a professor surgeon, a specialist nurse, and ICU staff — with detailed gratitude, explicitly noting that the hospital's old, unglamorous Victorian-era buildings don't reflect the quality of its medical staff. No serious complaints surfaced in this sample."
+  },
+  "singapore general hospital": {
+    "rating": 3.4,
+    "reviewCount": 692,
+    "asOf": "2026-09",
+    "summary": "Ward and inpatient nursing care draw strong praise — a named ENT specialist and a specific ward's nursing staff are credited with a successful, reassuring salivary gland surgery recovery that one reviewer says \"saved their life.\" But the Emergency Department is a clear sore point: one reviewer describes a staff member shouting a \"last warning\" at an elderly patient simply asking to use the bathroom, and another describes an ophthalmology emergency (sudden severe eye pain and vision loss) still unresolved after nearly 10 hours in the department, including a 3-hour wait just for an initial consultation."
+  },
+  "taipei veterans general hospital": {
+    "rating": 4.0,
+    "reviewCount": 3901,
+    "asOf": "2026-09",
+    "summary": "One of the highest average ratings and by far the largest review count in this set. Nurses are the single most-mentioned topic by a wide margin (584 mentions), and reviews consistently praise them as experienced and attentive. The hospital is independently ranked Taiwan's #1 hospital and #174 globally by Newsweek/Statista's \"World's Best Hospitals\" list, with particular strength in cancer care (Taiwan's first heavy-ion cancer therapy center), cardiovascular disease, and geriatrics. Recurring complaints are minor and logistical rather than clinical: long waits even with appointments, scarce weekday parking, humid bathrooms, and slow elevators."
+  },
+  "林口長庚紀念醫院": {
+    "rating": 3.4,
+    "reviewCount": 3612,
+    "asOf": "2026-09",
+    "summary": "One of the largest review counts in this set, and reputed as Taiwan's best private hospital by at least one reviewer. Multiple reviewers name specific department directors and nurses by name with detailed gratitude — an OB-GYN director and outpatient nurse for a laparoscopic surgery recovery, and a cardiac surgery director praised for weeks of consistent family communication during an ICU stay that involved weighing aggressive treatment against palliative care. The most pointed complaint is about a specific front-desk registration staff member described as rude to patients who are already unwell. English name: Chang Gung Memorial Hospital, Linkou."
+  },
+  "china medical university hospital": {
+    "rating": 3.1,
+    "reviewCount": 2102,
+    "asOf": "2026-09",
+    "summary": "Unusually bimodal, with slightly more 1-star than 5-star reviews (812 vs. 753). Specific named specialists draw strong praise: an ophthalmologist credited with calm, skilled emergency treatment for a sudden retinal tear, and a nationally recognized neurosurgeon — previously head of neurosurgery at Taipei Veterans General, reportedly also treats a well-known Taiwanese celebrity — recommended for pituitary tumor surgery. But there's a sharply contrasting complaint about a specific dermatologist described as arrogant and dismissive, spending under 3 minutes on a visit without a proper examination. Nurses are by far the most-discussed topic overall (267 mentions). Located in Taichung."
+  },
+  "aiims emergency": {
+    "rating": 3.9,
+    "reviewCount": 265,
+    "asOf": "2026-09",
+    "summary": "As India's top-ranked public medical institution, treatment is free (fully government-funded), and one reviewer credits it with the country's best facilities and most experienced doctors — but notes that reaching that quality requires enduring long waits and heavy paperwork, with few patients feeling they truly benefit despite the public investment. Several detailed and serious complaints follow a similar pattern: patients describe being left uncommunicated-with on stretchers during apparent emergencies, one names a specific doctor as dangerously unprofessional, and another describes a father being admitted for planned surgery only to be discharged without treatment and redirected to a different hospital after all pre-op tests were completed. Note: only this hospital's Emergency Room is tagged as a distinct location in OpenStreetMap/Google — the main AIIMS New Delhi campus is much larger."
+  },
+  "amsterdam umc locatie amc": {
+    "rating": 3.9,
+    "reviewCount": 734,
+    "asOf": "2026-09",
+    "summary": "One patient calls it the best hospital they've ever been to, crediting quick, responsive care for post-surgical complications that arose two days after a difficult operation. But there's a sharply negative account too: a parent describes repeated pharmacy/prescription routing errors that left a child in pain for a full day, plus unhelpful, rushed phone support. A smaller, more unusual complaint: unsettling foot-related medical photos displayed in the hospital cafeteria."
+  },
+  "hospital general de méxico": {
+    "rating": 3.7,
+    "reviewCount": 2125,
+    "asOf": "2026-09",
+    "summary": "As Mexico's flagship public general hospital, it draws real gratitude — one reviewer credits it with saving their mother's life via top specialists and fast emergency testing, specifically naming staff members (including one who keeps pet squirrels that made the wait more bearable), and calls it the best option for those who can't afford private care. But underfunding is a recurring, visible theme: reviewers describe a building badly needing remodeling, a chaotic ER stretcher/security process, a 2-day wait just to be moved to a ward, persistent bad odors, and many broken facilities — one reviewer explicitly concludes the public hospital is severely underfunded."
+  },
+  "ciudad sanitaria la paz": {
+    "rating": 3.6,
+    "reviewCount": 1946,
+    "asOf": "2026-09",
+    "summary": "The Emergency Department is the dominant topic by far (307 mentions). One reviewer's account is particularly striking: they describe the physical facility as visibly aged and rundown \"like a hospital in a developing country,\" citing poor staff welfare, inadequate hygiene, and a severely inadequate maintenance budget despite being one of Madrid's major hospitals. A separate reviewer describes feeling dismissed in the ER despite worsening neck pain and arm weakness after 10 days of ineffective prior treatment. Balancing this, another reviewer praises the medical staff broadly for combining strong professionalism with genuine empathy and attentive care for patients and families. Better known as La Paz University Hospital, Madrid."
+  }
+}

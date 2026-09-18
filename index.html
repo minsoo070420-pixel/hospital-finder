@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nearby Hospitals Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <h1>🏥 Nearby Hospitals</h1>
+
+      <form id="search-form">
+        <input id="search-input" type="text" placeholder="Search a place (e.g. &quot;Madrid, Spain&quot;)..." autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="controls">
+        <button id="locate-btn" type="button">📍 Use my location</button>
+        <label for="radius-select">Radius:</label>
+        <select id="radius-select">
+          <option value="2000">2 km</option>
+          <option value="5000" selected>5 km</option>
+          <option value="10000">10 km</option>
+          <option value="20000">20 km</option>
+        </select>
+        <button id="refresh-btn" type="button">Search this area</button>
+      </div>
+
+      <label class="auto-locate-row">
+        <input id="auto-locate-toggle" type="checkbox" checked />
+        Automatically use my location on load
+      </label>
+
+      <div class="insurance-row">
+        <label for="insurance-select">Your insurance:</label>
+        <select id="insurance-select">
+          <option value="">Any / show all</option>
+        </select>
+      </div>
+
+      <p id="status-line">Search a location or use your current location to find nearby hospitals.</p>
+
+      <ul id="hospital-list"></ul>
+
+      <p class="disclaimer">
+        Open/closed status is computed from OpenStreetMap's <code>opening_hours</code> data,
+        which is often missing or incomplete — treat it as a hint, not a guarantee.
+        Insurance info comes from the local <code>insurance-data.json</code> file (sample data) —
+        edit it with real information for hospitals you care about, or verify by calling the hospital.
+        Review summaries (in each hospital's popup) show "Coming soon" until entries are
+        added to <code>reviews-data.json</code>.
+        The insurance dropdown only matches hospitals already listed in that file — everything
+        else still shows up, just unmarked. Distance is shown only after using
+        "Use my location" (miles in the US, km elsewhere), not for typed searches.
+        A bare city name can occasionally match a same-named small town instead of the
+        place you meant (e.g. "Madrid" vs. a town called Madrid, Iowa) — add the country
+        for a sure match, e.g. "Madrid, Spain".
+      </p>
+    </aside>
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
