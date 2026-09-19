@@ -704,5 +704,49 @@
       "Travel/international insurance for foreign visitors — verify directly"
     ],
     "note": "Vietnam's national BHYT health insurance covers the majority of the population and pays a large share of costs at public hospitals, but reimbursement is highest when patients go through a referral from a lower-tier facility first — going directly to a top-tier hospital like this one without one usually means a lower reimbursement rate. Private insurers are commonly used as supplemental coverage or by foreign residents. Cho Ray Hospital is Vietnam's largest and one of its most prestigious hospitals, drawing patients referred from across the southern half of the country."
+  },
+  "i̇stanbul üniversitesi tıp fakültesi hastanesi": {
+    "insurances": [
+      "SGK / Genel Sağlık Sigortası (Turkey's mandatory national health insurance) — covers most costs for insured residents",
+      "EU/EHIC reciprocal coverage for some European visitors",
+      "Allianz Sigorta",
+      "Axa Sigorta",
+      "Anadolu Sigorta",
+      "Travel/international insurance for other visitors — verify directly"
+    ],
+    "note": "Turkey's SGK is a mandatory national health insurance system funded through payroll and government contributions, and public university hospitals like this one accept it directly. Private complementary insurance is mainly used for private hospitals or to reduce SGK co-pays. Also known as Çapa Hospital, this is one of two hospitals (along with the separately administered Cerrahpaşa Hospital) that trace back to Istanbul University's medical faculty, and the two are still sometimes confused with each other."
+  },
+  "karolinska universitetssjukhuset": {
+    "insurances": [
+      "Regional tax-funded public healthcare (Sweden's universal system) — low fixed patient fees with an annual high-cost cap (högkostnadsskydd)",
+      "EU/EHIC reciprocal coverage for many European visitors",
+      "Länsförsäkringar",
+      "If Skadeförsäkring",
+      "Trygg-Hansa",
+      "Travel/international insurance for other visitors — verify directly"
+    ],
+    "note": "Sweden's healthcare is funded through regional taxation, and residents pay only a small fixed fee per visit, capped annually — there's no US-style in-network/out-of-network split, and private insurance is uncommon for a hospital like this one, used mostly to skip queues for non-urgent private care. Karolinska University Hospital is one of Europe's largest and most research-intensive hospitals, closely tied to the Karolinska Institute, which awards the Nobel Prize in Physiology or Medicine."
+  },
+  "philippine general hospital": {
+    "insurances": [
+      "PhilHealth (Philippines' national health insurance) — covers a portion of costs, more for indigent/sponsored members",
+      "Free or heavily subsidized \"service\" (non-paying) wards for indigent patients, separate from paying wards",
+      "Maxicare",
+      "Medicard",
+      "Intellicare",
+      "Travel/international insurance for foreign visitors — verify directly"
+    ],
+    "note": "PhilHealth is the Philippines' mandatory national insurance program, but it typically covers only part of a hospital bill, especially at private facilities. Philippine General Hospital is a public, government-subsidized hospital known for being far cheaper than private alternatives, with separate free \"service\" wards for indigent patients alongside paying wards — private HMOs (Maxicare, Medicard, etc.) are mainly used at private hospitals instead. Run by the University of the Philippines Manila, it's the country's largest public tertiary hospital."
+  },
+  "clínica san ignacio": {
+    "insurances": [
+      "EPS under Colombia's SGSSS (mandatory national health system) — Compensar",
+      "Sanitas",
+      "Nueva EPS",
+      "Salud Total",
+      "Colsanitas (private/prepaid plans for faster access)",
+      "Travel/international insurance for foreign visitors — verify directly"
+    ],
+    "note": "Colombia's SGSSS requires everyone to be enrolled in an EPS (health-plan administrator), either through the contributory regime (formal employment) or the subsidized regime (low-income residents), which then contracts with hospitals like this one for care. \"Medicina prepagada\" (private prepaid plans) exist on top of this for faster access or upgraded private rooms. Hospital Universitario San Ignacio is run by the Pontificia Universidad Javeriana and is one of Colombia's top-ranked teaching hospitals, though recent reviews describe significant strain on its emergency department."
   }
 }
