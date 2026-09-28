@@ -850,5 +850,111 @@
       "Free or low-cost for enrolled, eligible U.S. veterans through VA health benefits — no private insurance needed"
     ],
     "note": "As a Department of Veterans Affairs hospital, care here is provided directly through VA health benefits to enrolled veterans, not billed to private insurance in the usual sense. Eligibility and copays depend on the veteran's assigned VA priority group and service-connected disability rating."
+  },
+  "los angeles general medical center": {
+    "insurances": [
+      "Medi-Cal (Medicaid)",
+      "Medicare",
+      "My Health LA (LA County's program for eligible uninsured low-income residents)",
+      "Anthem Blue Cross",
+      "Health Net",
+      "Most major commercial plans"
+    ],
+    "note": "LA County's flagship public safety-net hospital (formerly known as LAC+USC Medical Center), affiliated with USC's medical school. It serves a very high volume of patients, including uninsured and low-income residents through LA County's own coverage programs."
+  },
+  "white memorial medical center": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)"
+    ],
+    "note": "Now operating as Adventist Health White Memorial after a rebrand — Google and other listings may show the newer name."
+  },
+  "good samaritan hospital": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)"
+    ],
+    "note": "Operates as PIH Health Good Samaritan Hospital — Google and other listings may show the newer name."
+  },
+  "usc norris cancer hospital": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)"
+    ],
+    "note": "A specialized cancer hospital, part of Keck Medicine of USC — typically used for oncology care, often alongside or following treatment at Keck Hospital of USC next door."
+  },
+  "california hospital medical center": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)"
+    ],
+    "note": "Operates as Dignity Health - California Hospital Medical Center — Google and other listings may show the fuller name."
+  },
+  "gateways hospital": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)"
+    ],
+    "note": "A psychiatric hospital and mental health treatment center (Gateways Hospital and Mental Health Center) — offers inpatient and residential mental health care, not general/emergency medicine."
+  },
+  "keck hospital of usc": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)"
+    ]
+  },
+  "barlow respiratory hospital": {
+    "insurances": [
+      "Medicare",
+      "Medi-Cal (Medicaid)",
+      "Anthem Blue Cross",
+      "Health Net",
+      "Most major commercial plans (verify directly — long-term acute care coverage rules differ from general hospitals)"
+    ],
+    "note": "A specialized long-term acute care hospital for patients needing ventilator support and weaning, tracheostomy care, and complex respiratory rehabilitation — not a general ER or short-stay hospital. Patients are typically transferred here from another hospital rather than arriving directly."
+  },
+  "kaiser foundation hospital mental health center": {
+    "insurances": [
+      "Kaiser Permanente health plans only — this facility generally does not accept other insurance"
+    ],
+    "note": "A Kaiser Permanente inpatient psychiatric and mental health facility. As with most Kaiser Permanente facilities, care here is normally restricted to patients enrolled in a Kaiser Permanente health plan, unlike most other hospitals in this app which accept a range of insurers."
+  },
+  "joshua house health center": {
+    "insurances": [
+      "Free or low-cost regardless of insurance status — a nonprofit community health clinic serving low-income and homeless residents",
+      "Medi-Cal (Medicaid)",
+      "Medicare"
+    ],
+    "note": "Despite being tagged as a hospital in OpenStreetMap, this is a primary-care community health clinic (run by LA Christian Health Centers) in Skid Row, not a full hospital with emergency or inpatient care — it offers medical, dental, and pharmacy services on a free or sliding-scale basis."
   }
 }

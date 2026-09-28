@@ -509,5 +509,65 @@
     "reviewCount": 334,
     "asOf": "2026-09",
     "summary": "Reviews are notably split between strong praise for specific staff and broader skepticism about VA care quality. A neurosurgery patient praises Dr. Miller by name (parking is the only real complaint); another describes excellent surgical care plus a considerate overnight phone staff during a busy shift. A kidney-stone surgery patient chose this VA over Mount Sinai or NewYork-Presbyterian for continuity of 6 years of records, calling the surgery itself excellent despite a difficult recovery at home afterward. On the more critical side, one long-time patient advises getting referred out to non-VA care as soon as possible, calling VA staff quality \"below average\" on the whole; another notes the benefit of NYU teaching staff providing modern overnight coverage, offset by the discomfort of being treated by supervised residents and interns still training."
+  },
+  "los angeles general medical center": {
+    "rating": 3.6,
+    "reviewCount": 1298,
+    "asOf": "2026-09",
+    "summary": "A high-volume county safety-net hospital with reviews reflecting both its scale and its strain. One family describes excellent doctor care across two serious admissions (third-degree burns and a burst vein), with only nursing attitude as a complaint. Others describe real access problems: one patient saw five different doctors with inconsistent diagnoses and a referral wait of 3+ weeks; another calls it \"one of the worst hospitals in the world\" after a 90-minute ER wait with severe kidney stones; a nurse reportedly forgot a child's second antibiotic dose during a 24-hour ER stay. Balancing this, one family thanks the staff by name for a month and a half of care that they say saved their brother's life. Formerly known as LAC+USC Medical Center, it's affiliated with USC's medical school."
+  },
+  "white memorial medical center": {
+    "rating": 4.4,
+    "reviewCount": 4683,
+    "asOf": "2026-09",
+    "summary": "Consistently warm reviews with many named staff: a nursing team praised for calling a patient's mother \"mom\" with genuine compassion; a pacemaker procedure credited to Dr. Salazar and an attentive on-call team; a surgery patient thanks Dr. Salem's surgical team and a long list of named ICU and monitoring-unit staff; two nurses (Crystal and Jessica) singled out on the 3rd floor; and an outpatient procedure patient recounts good-natured, attentive service down to a lost phone returned by security. Now operating as Adventist Health White Memorial."
+  },
+  "good samaritan hospital": {
+    "rating": 3.2,
+    "reviewCount": 665,
+    "asOf": "2026-09",
+    "summary": "Reviews (several written in Korean, reflecting the hospital's proximity to Koreatown) are sharply mixed. Positive accounts describe a kind, attentive staff from admission on, clean daily-serviced rooms, and a pre/post-surgical recovery floor (4th floor) praised as quiet, professional, and comfortable. On the negative side, one reviewer names a specific 5th-floor nurse as unresponsive and unqualified and wants to file a formal complaint, and another says the hospital has become noticeably less attentive and more indifferent than in the past. Operates as PIH Health Good Samaritan Hospital."
+  },
+  "usc norris cancer hospital": {
+    "rating": 4.3,
+    "reviewCount": 84,
+    "asOf": "2026-09",
+    "summary": "A specialized cancer hospital with uniformly positive reviews. One patient describes being transferred here from another USC facility after an AML (acute myeloid leukemia) diagnosis; another credits the entire admission-to-discharge team, including a named surgeon and PA team, with treating them as a person, not just a patient. A radiation therapy patient, now in remission, thanks Dr. Yeh and staff member Daniel by name; a radiation oncology patient separately praises Dr. Lim for patient, thorough explanations throughout treatment. Part of Keck Medicine of USC, next door to Keck Hospital of USC."
+  },
+  "california hospital medical center": {
+    "rating": 4.2,
+    "reviewCount": 3490,
+    "asOf": "2026-09",
+    "summary": "Reviews (several written in Korean) are generally positive but note slow service at times: one endoscopy patient praised the cleanliness and attentiveness but waited from 6am to 10am for a routine procedure; another says biopsy results took over a week to reach them despite the staff otherwise being kind. On the positive side, a patient who'd seen multiple other providers without a diagnosis says this hospital finally identified their knee problem and helped them get needed insurance approval, and another calls a recent ER visit fast and better than expected. Operates as Dignity Health - California Hospital Medical Center."
+  },
+  "gateways hospital": {
+    "rating": 3.4,
+    "reviewCount": 48,
+    "asOf": "2026-09",
+    "summary": "A psychiatric hospital, so reviews reflect inpatient mental health treatment rather than general medicine. A former teenage patient (admitted in 2012 after a suicide attempt) says the care helped set him on a path to now working as a clinical social worker himself, and another patient's multi-week stay is recalled with generally warm memories of specific staff by nickname. A mother recounts her son's psychiatric hospitalization after she flew in from South Africa, wishing a specific psychiatrist had shown more warmth given how frightening and disorienting the situation was for the family. A separate, unrelated complaint describes ongoing construction noise disrupting the surrounding neighborhood."
+  },
+  "keck hospital of usc": {
+    "rating": 4.0,
+    "reviewCount": 533,
+    "asOf": "2026-09",
+    "summary": "A large academic medical center with mixed reviews. A family thanks the surgical team for a mother's major surgery and recovery, calling the team's skill and warmth transformative during a hard time. On the more serious side, one reviewer alleges a mammogram was misread and missed a tumor, prompting a second opinion elsewhere and a since-confirmed cancer diagnosis — a serious, unverified claim. Another describes a distressing post-surgical phone call about active bleeding where the call center repeatedly asked to re-verify a phone number instead of addressing the emergency. A separate complaint concerns poorly maintained EV chargers in the parking structure. Part of Keck Medicine of USC."
+  },
+  "barlow respiratory hospital": {
+    "rating": 4.1,
+    "reviewCount": 114,
+    "asOf": "2026-09",
+    "summary": "A specialized long-term acute care hospital for ventilator weaning and respiratory rehab, so reviews differ from a general hospital's. One reviewer, having compared four LA hospitals, calls this the worst, alleging no patient was discharged in 4 months during their family's experience. Others are warmly positive: a nurse (Analisa Muiruri) is thanked by name for compassionate care of a father-in-law, and another family found the nursing staff empathetic during a difficult time. One pointed, angry review accuses the hospital of billing Medicare/Medi-Cal heavily per day after a patient's death, while still listing several attending physicians and staff by name."
+  },
+  "kaiser foundation hospital mental health center": {
+    "rating": 2.9,
+    "reviewCount": 95,
+    "asOf": "2026-09",
+    "summary": "A Kaiser Permanente inpatient psychiatric facility; reviews describe a wide range of experiences. Positive accounts describe kind nursing staff, a psychiatrist who listened carefully, and a partial hospitalization (PHP) program credited with resolving a serious crisis. A more troubling account describes a patient discharged after 4 days who relapsed and was readmitted within another 4 days. One serious, unverified allegation describes a patient held under an involuntary psychiatric hold being told to consent to electroconvulsive therapy (ECT) or face a 180-day extended hold, describing the resulting consent as coerced and alleging lasting harm. As with other Kaiser facilities, care here is generally restricted to Kaiser Permanente health plan members."
+  },
+  "joshua house health center": {
+    "rating": 4.5,
+    "reviewCount": 171,
+    "asOf": "2026-09",
+    "summary": "A free community health clinic in Skid Row (run by LA Christian Health Centers), not a full hospital. Reviewers consistently praise the doctors as patient and caring — one specifically rates them more professional than other local low-cost providers — and a same-day knee X-ray appointment drew particular gratitude. A more critical review says front-desk service has declined over the years, citing unwritten, arbitrarily enforced policies and wait times comparable to a private practice, with walk-in visits especially difficult."
   }
 }
