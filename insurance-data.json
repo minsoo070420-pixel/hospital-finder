@@ -748,5 +748,107 @@
       "Travel/international insurance for foreign visitors — verify directly"
     ],
     "note": "Colombia's SGSSS requires everyone to be enrolled in an EPS (health-plan administrator), either through the contributory regime (formal employment) or the subsidized regime (low-income residents), which then contracts with hospitals like this one for care. \"Medicina prepagada\" (private prepaid plans) exist on top of this for faster access or upgraded private rooms. Hospital Universitario San Ignacio is run by the Pontificia Universidad Javeriana and is one of Colombia's top-ranked teaching hospitals, though recent reviews describe significant strain on its emergency department."
+  },
+  "newyork-presbyterian lower manhattan hospital": {
+    "insurances": [
+      "Empire BlueCross BlueShield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Oxford Health Plans",
+      "Medicare",
+      "Medicaid"
+    ]
+  },
+  "new york eye and ear infirmary of mount sinai": {
+    "insurances": [
+      "Aetna",
+      "Cigna",
+      "Empire BlueCross BlueShield",
+      "UnitedHealthcare",
+      "Medicare",
+      "Medicaid"
+    ]
+  },
+  "lenox health greenwich village": {
+    "insurances": [
+      "Aetna",
+      "Cigna",
+      "Empire BlueCross BlueShield",
+      "UnitedHealthcare",
+      "Oxford Health Plans",
+      "Medicare",
+      "Medicaid"
+    ],
+    "note": "This is Northwell Health's free-standing emergency department for Greenwich Village — it treats emergencies but does not admit inpatients overnight; more complex cases are transferred to Lenox Hill Hospital uptown."
+  },
+  "nyu langone orthopedic hospital": {
+    "insurances": [
+      "Aetna",
+      "Blue Cross Blue Shield",
+      "Medicare",
+      "Medicaid",
+      "Oxford Health Plans",
+      "UnitedHealthcare"
+    ]
+  },
+  "hoboken university medical center": {
+    "insurances": [
+      "Horizon Blue Cross Blue Shield of New Jersey",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "Medicaid"
+    ]
+  },
+  "jersey city medical center": {
+    "insurances": [
+      "Horizon Blue Cross Blue Shield of New Jersey",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "Medicaid",
+      "Charity Care (NJ's free/reduced-cost program for eligible uninsured patients)"
+    ]
+  },
+  "hassenfeild children's hospital at nyu lagone": {
+    "insurances": [
+      "Aetna",
+      "Blue Cross Blue Shield",
+      "Medicare",
+      "Medicaid",
+      "Oxford Health Plans",
+      "UnitedHealthcare"
+    ],
+    "note": "NYU Langone's dedicated children's hospital (its own OpenStreetMap listing has minor typos in the name — officially Hassenfeld Children's Hospital at NYU Langone)."
+  },
+  "brooklyn hospital center": {
+    "insurances": [
+      "Aetna",
+      "Cigna",
+      "Empire BlueCross BlueShield",
+      "UnitedHealthcare",
+      "Medicare",
+      "Medicaid",
+      "NYC Care"
+    ]
+  },
+  "nyu langone outpatient surgery center": {
+    "insurances": [
+      "Aetna",
+      "Blue Cross Blue Shield",
+      "Medicare",
+      "Oxford Health Plans",
+      "UnitedHealthcare"
+    ],
+    "note": "An outpatient surgical center rather than a full hospital — used for same-day procedures like the trigger-finger release and minor orthopedic surgeries reviewers describe, not overnight stays or emergencies."
+  },
+  "veteran affairs new york harbor healthcare system": {
+    "insurances": [
+      "Free or low-cost for enrolled, eligible U.S. veterans through VA health benefits — no private insurance needed"
+    ],
+    "note": "As a Department of Veterans Affairs hospital, care here is provided directly through VA health benefits to enrolled veterans, not billed to private insurance in the usual sense. Eligibility and copays depend on the veteran's assigned VA priority group and service-connected disability rating."
   }
 }
