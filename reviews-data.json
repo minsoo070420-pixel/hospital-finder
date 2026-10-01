@@ -982,5 +982,513 @@
         4
       ]
     ]
+  },
+  "ann & robert h. lurie children's hospital": {
+    "rating": 3.9,
+    "reviewCount": 1371,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        85
+      ],
+      [
+        "ER",
+        48
+      ],
+      [
+        "Floor",
+        18
+      ],
+      [
+        "Check-in",
+        13
+      ],
+      [
+        "Vital signs",
+        12
+      ]
+    ],
+    "summary": "A well-regarded children's hospital, though ER wait times are a recurring theme. One parent describes a longer-than-expected visit eased by attentive, kind staff who brought snacks and water for hungry kids; another's child was admitted for 3 days — the ER wait was long but expected, and inpatient care was excellent throughout. An adult patient (seen by a specialist who also treats children) loves the hospital's art, sculptures, and cafeteria, naming her immunologist Dr. Kim as outstanding. Another parent describes a brain scan that correctly diagnosed a child's seizures, followed by medication that helped significantly."
+  },
+  "rush university medical center": {
+    "rating": 3.3,
+    "reviewCount": 1187,
+    "ratingBreakdown": [
+      574,
+      97,
+      54,
+      58,
+      404
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        86
+      ],
+      [
+        "Front desk",
+        29
+      ],
+      [
+        "Phone calls",
+        29
+      ],
+      [
+        "Billing",
+        21
+      ]
+    ],
+    "summary": "Ratings are sharply bimodal (574 five-star vs. 404 one-star out of 1,187), and recent reviews skew toward frustration. One mother filed a formal complaint after a delayed appointment for her daughter; another describes a bleeding injury in the ER where a doctor refused to say whether stitches were needed and deprioritized the case for something \"more important\"; a reviewer who came for a second opinion says the physician was satisfactory but the entire experience was overshadowed by a confusing, frustrating billing process. The hospital's official account replies to each with the same request to contact patient relations directly."
+  },
+  "university of illinois at chicago hospital": {
+    "rating": 2.9,
+    "reviewCount": 737,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "ER",
+        64
+      ],
+      [
+        "Nurses",
+        45
+      ],
+      [
+        "Insurance",
+        24
+      ],
+      [
+        "Baby",
+        23
+      ],
+      [
+        "Phone",
+        22
+      ]
+    ],
+    "summary": "A patient who traveled 3 hours for a \"life-changing\" surgery praises attentive staff who brought warm blankets, explained every step, and helped arrange lodging. Another thanks the medical team for excellent care of their father, while flagging two unspecified process issues that kept it from a perfect rating. A pregnant patient describes serious, repeated insurance-verification problems despite having both union coverage and Medicaid, causing delayed prenatal care and added stress. A harsher review alleges rude, unprofessional staff and a urinal left beside food trays for hours. Separately, a patient alleges her pain was dismissed during a breast cyst procedure — a serious, unverified allegation of being disbelieved. Operates as UI Health."
+  },
+  "jesse brown va medical center": {
+    "rating": 3.9,
+    "reviewCount": 463,
+    "ratingBreakdown": [
+      257,
+      79,
+      31,
+      14,
+      82
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Primary care clinic",
+        21
+      ],
+      [
+        "Nurses",
+        16
+      ],
+      [
+        "Mental health",
+        8
+      ]
+    ],
+    "summary": "One veteran thanks the staff for consistent respect, naming VA police officer Joseph Dais specifically, and says the \"90% good, honest people\" shouldn't be defined by a \"bad 10%.\" A more critical reviewer calls it the \"ghetto VA,\" saying it lives up to that reputation, without much detail. A detailed complaint describes a disabled veteran's ER visit with his son: a promised EKG was never done, an anti-nausea medication was never brought despite a nurse saying she'd get it, only a PICC line was placed with no fluids given, and most of the blood/urine samples taken were never actually sent out of the room."
+  },
+  "john h. stroger, jr. hospital of cook county": {
+    "rating": 3.1,
+    "reviewCount": 1281,
+    "ratingBreakdown": [
+      557,
+      110,
+      57,
+      67,
+      490
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Front desk",
+        52
+      ],
+      [
+        "Floor",
+        31
+      ],
+      [
+        "Phone calls",
+        30
+      ],
+      [
+        "Bathroom",
+        22
+      ]
+    ],
+    "summary": "A couple describes their first-pregnancy checkups as professional, warm, and attentive from arrival. A disabled patient credits four named staff members (Carolina Vasquez, Regina Bethel, Alex Argueta, and Linda James) with excellent teamwork — fast prescriptions and refills, and even catching medication errors made at other hospitals. On the negative side, one reviewer describes staff frequently on their phones, passing off responsibilities, and poor communication between departments. Cook County's public safety-net hospital, part of Cook County Health."
+  },
+  "insight hospital & medical center": {
+    "rating": 3.2,
+    "reviewCount": 844,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "ER",
+        97
+      ],
+      [
+        "Nurses",
+        40
+      ],
+      [
+        "Beds",
+        20
+      ],
+      [
+        "Insurance",
+        20
+      ],
+      [
+        "Billing",
+        8
+      ]
+    ],
+    "summary": "One reviewer praises a clean, well-maintained Islamic prayer room with ample parking. Nurse Megan (dual RN/CNA-certified) is singled out for excellent care despite understaffing, and an imaging/records staff member named Ciara is thanked for prompt, professional help with delayed paperwork. On the negative side, one reviewer describes a cascade of billing errors — incorrect charges, double-billing, fees for cancelled appointments, a non-functional online payment system, and no resolution after multiple calls. A separate reviewer says a prior review describing a disturbing interaction with Dr. Marco Rodriguez over a father's discharge was removed from Google."
+  },
+  "saint joseph medical center": {
+    "rating": 3.9,
+    "reviewCount": 1911,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        130
+      ],
+      [
+        "Baby",
+        75
+      ],
+      [
+        "ER",
+        43
+      ],
+      [
+        "Waiting room",
+        36
+      ]
+    ],
+    "summary": "A patient dreading a follow-up visit after a bad prior experience says this one completely changed her mind — professional, nonjudgmental staff throughout, with a phlebotomist singled out as the best she's ever had. Another reviewer, whose husband dislikes hospitals after past bad experiences, says the front desk, security, nurses, and doctors were all so kind that he too came away satisfied. A third thanks the ICU team for attentive, comforting care of her mother during a stroke and pneumonia admission."
+  },
+  "park plaza hospital": {
+    "rating": 4.2,
+    "reviewCount": 1687,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        95
+      ],
+      [
+        "Beds",
+        31
+      ],
+      [
+        "ER",
+        29
+      ],
+      [
+        "IV fluids",
+        27
+      ],
+      [
+        "Pain management",
+        17
+      ]
+    ],
+    "summary": "Mostly strongly positive: one patient praises the ER and 9th-floor-south nursing staff, the on-call doctors, a Dr. Yu, and even radiology, housekeeping, and dietary staff by department. A nurse named Marsha is singled out for calmly running an entire post-op ward solo overnight without ever making the patient feel rushed. Another thanks a newly-hired ER patient coordinator, a prenatal nurse, a Dr. Ryan K, and the CT tech by name. On the negative side, one reviewer says intermediate-care nursing was good, but she wasn't given her daily medications or anything for pain/nausea on the first night and had to take pills she'd brought from home herself, with IV fluids taking hours to get ordered. Operates as HCA Houston Healthcare Medical Center."
+  },
+  "plaza specialty hospital": {
+    "rating": 4.7,
+    "reviewCount": 13,
+    "asOf": "2026-10",
+    "summary": "A small review sample for a long-term acute care hospital — treat it as limited. Reviewers consistently name specific staff: a case worker (Regina Clark) and nurse (Tiffany) praised for preparing a family to bring their mother home; a staff member nicknamed \"George B.\" praised for warmth and even magic tricks that lighten the mood; nurses Norma and Courtney Fellerin thanked by name. One more mixed review describes a father transferred here from Ben Taub Hospital to wean off a ventilator — most nurses were excellent, though a few caused anxious nights, and a visiting-hours conflict briefly kept the family from seeing him. Operates as AMG Specialty Hospital - Houston Medical Center."
+  },
+  "children's hospital of philadelphia": {
+    "rating": 4.0,
+    "reviewCount": 1382,
+    "ratingBreakdown": [
+      958,
+      78,
+      40,
+      29,
+      277
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        74
+      ],
+      [
+        "Surgery",
+        47
+      ],
+      [
+        "ER",
+        43
+      ]
+    ],
+    "summary": "A reviewer calls the care and kindness from doctors, nurses, and everyone else at CHOP amazing. A frustrated reviewer alleges inconsistent, confusing daily rules around bringing a personal mobility scooter through security, being stopped repeatedly despite prior permission. On the very positive side, a family describes world-class care for their child from the ER through specialists, crediting Child Life Specialists with keeping their child calm and safe during tests and procedures, and praising the state-of-the-art facility and dedicated staff."
+  },
+  "thomas jefferson university hospital": {
+    "rating": 4.1,
+    "reviewCount": 1784,
+    "ratingBreakdown": [
+      1236,
+      142,
+      71,
+      56,
+      279
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Rooms",
+        83
+      ],
+      [
+        "Nurses",
+        51
+      ],
+      [
+        "ICU",
+        27
+      ],
+      [
+        "Security",
+        26
+      ]
+    ],
+    "summary": "A patient who arrived with sudden vision loss via the Wills Eye ER connection says Jefferson's staff kept her calm and reassured throughout, especially a front-desk nurse she couldn't name. A glowing birth story credits Dr. Madeline Rosado and names several postpartum nurses (Gina, Kelly, Alissa) for excellent care, plus a second anesthesiologist who took her pain seriously and delivered a painless epidural. Another couple praises the entire team — admission through discharge — for an emergency involving her husband."
+  },
+  "wills eye hospital": {
+    "rating": 3.1,
+    "reviewCount": 606,
+    "ratingBreakdown": [
+      263,
+      37,
+      23,
+      35,
+      248
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Front desk",
+        31
+      ],
+      [
+        "Parking",
+        23
+      ],
+      [
+        "ER",
+        22
+      ]
+    ],
+    "summary": "A recurring complaint is cost and wait times rather than clinical care: one reviewer calls the ER good but the main hospital \"the worst,\" citing a 90-minute wait past a scheduled appointment and $30 parking; another's mother loves her ophthalmologist but faced a long wait to actually see the doctor and was charged $36 for 2 hours of parking despite a quoted discount. A more serious complaint describes a scary miscommunication when front-desk staff failed to leave a message after an after-hours call about a parent's surgery recovery. On the positive side, Dr. Whitney Jamison is praised by name for gentle, on-time, pain-free care, and a long-time patient says Dr. Michael Cohen is the only eye doctor he trusts, having followed him to this hospital specifically."
+  },
+  "penn presbyterian medical center": {
+    "rating": 2.9,
+    "reviewCount": 512,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Surgery",
+        61
+      ],
+      [
+        "Nurses",
+        49
+      ],
+      [
+        "Waiting room",
+        33
+      ],
+      [
+        "Triage",
+        16
+      ]
+    ],
+    "summary": "A daughter whose mother had repeated ER visits (dislocated shoulders, low sodium, leg swelling) says the familiarity and monitoring she'd come to know from past visits was reassuring. A hip-surgery patient's family praises the 5S ward's nurses, especially one named Paul, called a \"superhero.\" On the negative side, one reviewer says no transport staff were available to move her 85-year-old mother from the elevator to outpatient surgery, forcing her to push a wheelchair and pull a walker herself, plus a 30-minute wait over lost paperwork despite an empty line. Another says eye-surgery OR staff were excellent but docked stars for a dirty waiting-room floor and bathroom."
+  },
+  "pennsylvania hospital": {
+    "rating": 3.6,
+    "reviewCount": 498,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "ER",
+        52
+      ],
+      [
+        "Nurses",
+        48
+      ],
+      [
+        "Surgery",
+        42
+      ],
+      [
+        "Baby",
+        38
+      ],
+      [
+        "Birth",
+        20
+      ]
+    ],
+    "summary": "Consistently positive, with many named staff: pre-op nurse True and Drs. Spears and Frankl praised for a reassuring outpatient surgery, with OR nurse Ryan called knowledgeable and warm; a radiology patient praises the whole department for a thorough, calming visit; Dr. Batul is credited with a smooth, well-explained appendectomy; a reviewer says Penn's ER caught a bowel obstruction that, in their account, Temple Hospital had missed the day before, leading to same-day emergency surgery and, two months later, a tumor-removal surgery, with 6th-floor staff across nursing, medicine, and therapy all praised for support through a frightening experience."
+  },
+  "corporal michael j. crescenz veterans affairs medical center": {
+    "rating": 3.7,
+    "reviewCount": 286,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Treatment",
+        10
+      ],
+      [
+        "Parking",
+        9
+      ],
+      [
+        "Clinic",
+        8
+      ]
+    ],
+    "summary": "A harsh complaint describes the Community Care coordination team as inattentive — mispronouncing patient names, calling at inconvenient times, no voicemails on missed calls, and over an hour on hold. In contrast, a veteran of 45 years with this VA says staff have always been respectful and kind across many departments (endocrinology, neurology, ENT, mental health, podiatry, nephrology, MRI, ophthalmology) with only minor, quickly-resolved issues. Another visitor compares the facility's cleanliness unfavorably to prisons she'd worked in, during her husband's MRI visit. A mental-health-focused patient says therapy and counseling have been excellent but physical-health care is inconsistent, with some nurses contradicting doctors and reacting poorly to being quoted their own supervisor's guidance."
+  },
+  "cooper university hospital": {
+    "rating": 2.8,
+    "reviewCount": 988,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        104
+      ],
+      [
+        "Compassion",
+        36
+      ],
+      [
+        "Pain management",
+        11
+      ]
+    ],
+    "summary": "A serious complaint describes a 5-hour wait in Camden for a medication the reviewer says is normally administered in 30 minutes and needed urgently. On the positive side, a birth story credits Dr. Schaefer, Dr. Carolyn Ross, and Dr. Amanda Malik with attentive prenatal-through-delivery care, with postpartum nurse Sheila named specifically; a 90-year-old patient's MD Anderson-referred cancer care in the ER and oncology ward is praised as exceeding expectations. A separate complaint alleges Cooper sent decade-old medical debt to collections without ever sending a bill, statement, or insurance-denial notice in 7 years, raising statute-of-limitations concerns."
+  },
+  "temple university hospital - episcopal campus": {
+    "rating": 2.4,
+    "reviewCount": 354,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        24
+      ],
+      [
+        "ER",
+        20
+      ],
+      [
+        "Ambulance",
+        13
+      ],
+      [
+        "Security",
+        12
+      ]
+    ],
+    "summary": "Ratings are notably low, with several serious allegations: one reviewer says she was left to vomit on herself in bed and discharged in inadequate clothing in freezing weather; another alleges waking up from a seizure without shoes or clothes to nurses who were dismissive and allegedly laughed while she cried, then denied her a visitor and gave no IV or workup when she objected; a third describes ER security staff behaving so badly toward his wife that he calls for the location to be shut down, after being unable to reach anyone by phone across four numbers. These are serious, unverified allegations. On the positive side, one reviewer's father had a comparatively quick (3-hour) and friendly ER visit, and the mammography department is specifically praised as excellent and caring."
+  },
+  "girard medical center": {
+    "rating": 3.3,
+    "reviewCount": 43,
+    "asOf": "2026-10",
+    "summary": "A behavioral-health and addiction-treatment facility (operating as The Behavioral Wellness Center at Girard), with mixed reviews. One reviewer describes rude, unprofessional front-desk staff arguing in view of patients while picking up a sibling's medication. A more serious allegation claims substance-abuse counselors encouraged patients toward relapse-risk behavior (taking others' prescriptions) and that a staff member dismissed the reviewer's ethics concerns. Another describes broken air conditioning during severe weather, constant room intrusions, and feeling unsafe amid other residents despite having disabilities that put her at fall risk on stairs. On the positive side, one reviewer credits staff with helping cover medical costs during admission and says he's maintained 9 years of sobriety since; another praises the nurses and therapists as the most helpful of any facility they've used."
+  },
+  "kensington hospital": {
+    "rating": 3.9,
+    "reviewCount": 49,
+    "asOf": "2026-10",
+    "summary": "A small community hospital with mixed-to-positive reviews. A patient hoping for a reliable local primary-care doctor was disappointed after an initially promising first visit. An outpatient pulmonology patient thanks the department's doctor and staff and calls the hospital clean. A patient who spent over a month in inpatient addiction treatment, despite initial fear and uncertainty, says every staff member was kind, empathetic, and professional. Another, who first came at 17 for addiction treatment and returned twice more over the years (as did some family members), describes it as a place that genuinely helps those who want it."
+  },
+  "kirkbride center": {
+    "rating": 2.4,
+    "reviewCount": 75,
+    "asOf": "2026-10",
+    "summary": "A drug and alcohol treatment and detox center with a consistently difficult reputation in reviews. One reviewer credits three named staff (Dr. Wyckoff, Tina, and Bonnie) as the sole reason for even 3 stars, describing the facility itself as barely more than a shelter and security staff as rude to visiting family. A patient with multiple stays, including an 8-month stint, describes most staff as disengaged and frequently on their phones. Several separate reviews name a specific front-desk staff member as unprofessional and unkind toward patients seeking treatment. Phone-based intake staff are also described as cold and unsympathetic in arranging basic family contact."
+  },
+  "jefferson methodist hospital": {
+    "rating": 3.9,
+    "reviewCount": 923,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        49
+      ],
+      [
+        "Compassion",
+        27
+      ],
+      [
+        "ER",
+        22
+      ],
+      [
+        "Security",
+        13
+      ]
+    ],
+    "summary": "Consistently positive. A longtime patient credits the Jefferson Headache Center and its doctors and nurses for never rushing her and always treating her like their only patient. A first-time visitor praises easy parking and friendly security-to-registration staff, with Dr. Jung's thorough 20-minute pre-surgical consultation singled out. A 4th-floor nurse named Daniel and podiatrist Dr. Green are both praised by name, and a same-day ER-to-discharge (12 hours) experience is described as attentive and professional throughout."
+  },
+  "jefferson moss-magee rehabilitation hospital – center city": {
+    "rating": 4.5,
+    "reviewCount": 201,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Nurses",
+        18
+      ],
+      [
+        "Therapy",
+        12
+      ],
+      [
+        "Trauma",
+        6
+      ],
+      [
+        "Wheelchairs",
+        5
+      ],
+      [
+        "Stroke",
+        4
+      ]
+    ],
+    "summary": "A well-known inpatient rehabilitation hospital (Magee Rehab) with overwhelmingly positive reviews. Patients repeatedly name specific physicians (Dr. Messer, Dr. Levin, Dr. Kuzer) and large teams of therapists by first name for patient, encouraging, highly individualized care through recovery from strokes, spinal cord injuries, and trauma. One reviewer, still mid-recovery, says every therapist and doctor made her feel genuinely cared for even without a full recovery yet. Multiple reviewers describe the hospital as having become like family during a long rehabilitation process."
+  },
+  "penn medicine rittenhouse": {
+    "rating": 4.0,
+    "reviewCount": 49,
+    "asOf": "2026-10",
+    "summary": "A long-term acute care and rehabilitation site, often used for patients transferred from an ICU. One reviewer thanks nurses, orderlies, dietary staff, and the physical therapy team by department for helping him recover safely. A sharply negative review warns against the facility's rehab program entirely, without detail. Another flags a billing concern: doctors reportedly ordered tests not covered by insurance without informing the patient beforehand that they'd be billed directly. A particularly difficult account describes a husband transferred here from the ICU for pneumonia and lung-cancer complications requiring high-flow oxygen — nursing care was good, but the family found it distressing that social workers and counselors raised the question of starting home hospice three times within a few days."
   }
 }

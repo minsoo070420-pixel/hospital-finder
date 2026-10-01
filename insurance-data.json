@@ -1053,5 +1053,273 @@
     ],
     "note": "Despite being tagged as a hospital in OpenStreetMap, this is a primary-care community health clinic (run by LA Christian Health Centers) in Skid Row, not a full hospital with emergency or inpatient care — it offers medical, dental, and pharmacy services on a free or sliding-scale basis.",
     "specialty": "Community Health Clinic"
+  },
+  "ann & robert h. lurie children's hospital": {
+    "insurances": [
+      "Blue Cross Blue Shield of Illinois",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Illinois Medicaid"
+    ],
+    "specialty": "Pediatric"
+  },
+  "rush university medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Illinois",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Illinois Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "university of illinois at chicago hospital": {
+    "insurances": [
+      "Blue Cross Blue Shield of Illinois",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Illinois Medicaid",
+      "Medicare"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Operates as UI Health — Google and other listings may show that name instead."
+  },
+  "jesse brown va medical center": {
+    "insurances": [
+      "Free or low-cost for enrolled, eligible U.S. veterans through VA health benefits — no private insurance needed"
+    ],
+    "specialty": "Veterans Affairs (VA)"
+  },
+  "john h. stroger, jr. hospital of cook county": {
+    "insurances": [
+      "CountyCare (Cook County's Medicaid managed care plan)",
+      "Illinois Medicaid",
+      "Medicare",
+      "Blue Cross Blue Shield of Illinois",
+      "Most major commercial plans"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Cook County's public safety-net hospital, part of Cook County Health — serves a very high volume of uninsured and Medicaid patients."
+  },
+  "insight hospital & medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Illinois",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Illinois Medicaid",
+      "Medicare"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "saint joseph medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Texas",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Texas Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "park plaza hospital": {
+    "insurances": [
+      "Blue Cross Blue Shield of Texas",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Texas Medicaid"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Operates as HCA Houston Healthcare Medical Center — Google and other listings may show the newer name."
+  },
+  "plaza specialty hospital": {
+    "insurances": [
+      "Medicare",
+      "Texas Medicaid",
+      "Blue Cross Blue Shield of Texas",
+      "Most major commercial plans (verify directly — long-term acute care coverage rules differ from general hospitals)"
+    ],
+    "specialty": "Long-Term Respiratory Care",
+    "note": "Operates as AMG Specialty Hospital - Houston Medical Center — a long-term acute care hospital for ventilator weaning and complex recovery, not a general ER. Patients are typically transferred here from another hospital after stabilizing."
+  },
+  "children's hospital of philadelphia": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "Pediatric"
+  },
+  "thomas jefferson university hospital": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "wills eye hospital": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "Eye & ENT"
+  },
+  "penn presbyterian medical center": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "pennsylvania hospital": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Founded in 1751, the first hospital in the United States. Part of Penn Medicine."
+  },
+  "corporal michael j. crescenz veterans affairs medical center": {
+    "insurances": [
+      "Free or low-cost for enrolled, eligible U.S. veterans through VA health benefits — no private insurance needed"
+    ],
+    "specialty": "Veterans Affairs (VA)"
+  },
+  "cooper university hospital": {
+    "insurances": [
+      "Horizon Blue Cross Blue Shield of New Jersey",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "NJ FamilyCare (Medicaid)"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "temple university hospital - episcopal campus": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "girard medical center": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid",
+      "Most behavioral-health/substance-use treatment programs bill insurance separately from medical care — verify directly"
+    ],
+    "specialty": "Psychiatric / Mental Health",
+    "note": "Operates as The Behavioral Wellness Center at Girard — a psychiatric and addiction-treatment facility, not a general hospital."
+  },
+  "kensington hospital": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "A small community hospital offering primary care, outpatient, and pulmonology services."
+  },
+  "kirkbride center": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid",
+      "Most addiction-treatment programs bill insurance separately from medical care — verify directly"
+    ],
+    "specialty": "Psychiatric / Mental Health",
+    "note": "A drug and alcohol addiction treatment and detox center, not a general hospital."
+  },
+  "jefferson methodist hospital": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "jefferson moss-magee rehabilitation hospital – center city": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "Long-Term Respiratory Care",
+    "note": "A nationally recognized inpatient rehabilitation hospital (Magee Rehabilitation) for stroke, spinal cord injury, and trauma recovery — not a general ER."
+  },
+  "penn medicine rittenhouse": {
+    "insurances": [
+      "Independence Blue Cross",
+      "Keystone Health Plan East",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "PA Medicaid"
+    ],
+    "specialty": "Long-Term Respiratory Care",
+    "note": "A long-term acute care and rehabilitation facility, often used for patients transferred from an ICU — not a general ER."
   }
 }
