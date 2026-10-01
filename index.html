@@ -41,6 +41,13 @@
         </select>
       </div>
 
+      <div class="insurance-row">
+        <label for="specialty-select">Type of care:</label>
+        <select id="specialty-select">
+          <option value="">Any / show all</option>
+        </select>
+      </div>
+
       <p id="status-line">Search a location or use your current location to find nearby hospitals.</p>
 
       <ul id="hospital-list"></ul>
@@ -58,6 +65,10 @@
         A bare city name can occasionally match a same-named small town instead of the
         place you meant (e.g. "Madrid" vs. a town called Madrid, Iowa) — add the country
         for a sure match, e.g. "Madrid, Spain".
+        "Type of care" filters by facility type (general, pediatric, psychiatric, cancer,
+        etc.) for hospitals already listed in insurance-data.json — everything else shows
+        as general by default. Each hospital's popup may also show a rating breakdown,
+        common review topics, and a link to live ER wait times, when that data is available.
       </p>
     </aside>
     <div id="map"></div>

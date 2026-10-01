@@ -1,5 +1,5 @@
 {
-  "_readme": "This file is SAMPLE data. Keys must be the hospital's exact OpenStreetMap 'name' tag, lowercased, on the specific OSM element tagged amenity=hospital (large hospital campuses are often split into several amenity=hospital buildings under different names, e.g. UCLA's flagship building is tagged 'building=hospital' with no amenity tag, while its actual amenity=hospital-tagged sub-facility is 'Mattel Children's Hospital'). Verify against live Overpass data (or openstreetmap.org) before trusting a name, don't just use the hospital's common/marketing name. Insurance lists here are illustrative/plausible, not confirmed with the hospitals — always verify by calling.",
+  "_readme": "This file is SAMPLE data. Keys must be the hospital's exact OpenStreetMap 'name' tag, lowercased, on the specific OSM element tagged amenity=hospital (large hospital campuses are often split into several amenity=hospital buildings under different names, e.g. UCLA's flagship building is tagged 'building=hospital' with no amenity tag, while its actual amenity=hospital-tagged sub-facility is 'Mattel Children's Hospital'). Verify against live Overpass data (or openstreetmap.org) before trusting a name, don't just use the hospital's common/marketing name. Insurance lists here are illustrative/plausible, not confirmed with the hospitals — always verify by calling. Each entry also has a \"specialty\" field (e.g. \"General / Acute Care\", \"Pediatric\", \"Psychiatric / Mental Health\", \"Cancer\", \"Emergency Department\") used for the app's care-type filter — every entry has one, defaulting to \"General / Acute Care\". An optional \"erWaitUrl\" field links to a hospital system's own published live ER wait-time page; only add it when you've verified a real page exists — most hospitals don't have one, so leave it out rather than guess a URL.",
   "the mount sinai hospital": {
     "insurances": [
       "Aetna",
@@ -8,7 +8,8 @@
       "Medicare",
       "Medicaid",
       "UnitedHealthcare"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "nyu langone health - tisch hospital": {
     "insurances": [
@@ -18,7 +19,9 @@
       "Medicaid",
       "Oxford Health Plans",
       "UnitedHealthcare"
-    ]
+    ],
+    "specialty": "General / Acute Care",
+    "erWaitUrl": "https://nyulangone.org/care-services/emergency-care"
   },
   "nyc health + hospitals/bellevue": {
     "insurances": [
@@ -26,7 +29,8 @@
       "Medicare",
       "NYC Care",
       "Most major commercial plans"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "newyork-presbyterian / weill cornell medical center": {
     "insurances": [
@@ -37,7 +41,8 @@
       "Oxford Health Plans",
       "Medicare",
       "Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "johns hopkins hospital": {
     "insurances": [
@@ -48,7 +53,8 @@
       "Johns Hopkins EHP",
       "Medicare",
       "Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "massachusetts general hospital": {
     "insurances": [
@@ -60,7 +66,8 @@
       "UnitedHealthcare",
       "Medicare",
       "MassHealth (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "duke university hospital": {
     "insurances": [
@@ -71,7 +78,8 @@
       "Duke Select",
       "Medicare",
       "NC Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "cleveland clinic": {
     "insurances": [
@@ -82,7 +90,8 @@
       "UnitedHealthcare",
       "Medicare",
       "Ohio Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "cedars-sinai medical center": {
     "insurances": [
@@ -93,7 +102,8 @@
       "Health Net",
       "Medicare",
       "Medi-Cal (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "stanford hospital": {
     "insurances": [
@@ -105,7 +115,8 @@
       "Stanford Health Care Alliance",
       "Medicare",
       "Medi-Cal (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "uc medical center moffett & long hospitals": {
     "insurances": [
@@ -117,7 +128,8 @@
       "UC Care",
       "Medicare",
       "Medi-Cal (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "houston methodist hospital": {
     "insurances": [
@@ -128,7 +140,8 @@
       "Humana",
       "Medicare",
       "Texas Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "northwestern memorial hospital": {
     "insurances": [
@@ -139,7 +152,8 @@
       "Humana",
       "Medicare",
       "Illinois Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "denver health medical center": {
     "insurances": [
@@ -150,7 +164,8 @@
       "Kaiser Permanente Colorado",
       "Medicare",
       "Health First Colorado (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "hospital of the university of pennsylvania": {
     "insurances": [
@@ -161,7 +176,8 @@
       "UnitedHealthcare",
       "Medicare",
       "PA Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "vanderbilt university medical center": {
     "insurances": [
@@ -172,7 +188,8 @@
       "Humana",
       "Medicare",
       "TennCare (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "emory university hospital": {
     "insurances": [
@@ -183,7 +200,8 @@
       "Humana",
       "Medicare",
       "Georgia Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "jackson memorial hospital": {
     "insurances": [
@@ -194,7 +212,8 @@
       "Humana",
       "Medicare",
       "Florida Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "banner university medical center phoenix": {
     "insurances": [
@@ -205,7 +224,8 @@
       "UnitedHealthcare",
       "Medicare",
       "AHCCCS (Arizona Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "mayo clinic saint marys campus": {
     "insurances": [
@@ -216,7 +236,8 @@
       "UnitedHealthcare",
       "Medicare",
       "Minnesota Medical Assistance (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "virginia mason hospital & seattle medical center": {
     "insurances": [
@@ -228,7 +249,8 @@
       "UnitedHealthcare",
       "Medicare",
       "Washington Apple Health (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "vancouver general hospital": {
     "insurances": [
@@ -239,7 +261,8 @@
       "Canada Life",
       "Out-of-country/travel insurance for visitors"
     ],
-    "note": "Canada has universal public healthcare — MSP covers most medically necessary services for BC/Canadian residents at no direct charge. Private insurers listed here typically cover extras (private rooms, some drugs) or serve out-of-country visitors, not the core hospital bill."
+    "note": "Canada has universal public healthcare — MSP covers most medically necessary services for BC/Canadian residents at no direct charge. Private insurers listed here typically cover extras (private rooms, some drugs) or serve out-of-country visitors, not the core hospital bill.",
+    "specialty": "General / Acute Care"
   },
   "st. paul's hospital": {
     "insurances": [
@@ -250,7 +273,8 @@
       "Canada Life",
       "Out-of-country/travel insurance for visitors"
     ],
-    "note": "Canada has universal public healthcare — MSP covers most medically necessary services for BC/Canadian residents at no direct charge. Private insurers listed here typically cover extras (private rooms, some drugs) or serve out-of-country visitors, not the core hospital bill."
+    "note": "Canada has universal public healthcare — MSP covers most medically necessary services for BC/Canadian residents at no direct charge. Private insurers listed here typically cover extras (private rooms, some drugs) or serve out-of-country visitors, not the core hospital bill.",
+    "specialty": "General / Acute Care"
   },
   "서울대학교병원": {
     "insurances": [
@@ -258,7 +282,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Seoul National University Hospital."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Seoul National University Hospital.",
+    "specialty": "General / Acute Care"
   },
   "삼성서울병원": {
     "insurances": [
@@ -266,7 +291,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Samsung Medical Center."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Samsung Medical Center.",
+    "specialty": "General / Acute Care"
   },
   "서울아산병원": {
     "insurances": [
@@ -274,7 +300,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Asan Medical Center."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Asan Medical Center.",
+    "specialty": "General / Acute Care"
   },
   "세브란스병원": {
     "insurances": [
@@ -282,7 +309,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Severance Hospital."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Severance Hospital.",
+    "specialty": "General / Acute Care"
   },
   "가톨릭대학교 서울성모병원": {
     "insurances": [
@@ -290,7 +318,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Seoul St. Mary's Hospital (The Catholic University of Korea)."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Seoul St. Mary's Hospital (The Catholic University of Korea).",
+    "specialty": "General / Acute Care"
   },
   "강북삼성병원": {
     "insurances": [
@@ -298,7 +327,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Kangbuk Samsung Hospital."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Kangbuk Samsung Hospital.",
+    "specialty": "General / Acute Care"
   },
   "이대목동병원": {
     "insurances": [
@@ -306,7 +336,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Ewha Womans University Mokdong Hospital."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Ewha Womans University Mokdong Hospital.",
+    "specialty": "General / Acute Care"
   },
   "건국대학교병원": {
     "insurances": [
@@ -314,7 +345,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Konkuk University Medical Center."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Konkuk University Medical Center.",
+    "specialty": "General / Acute Care"
   },
   "한양대학교의료원": {
     "insurances": [
@@ -322,7 +354,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Hanyang University Seoul Hospital."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Hanyang University Seoul Hospital.",
+    "specialty": "General / Acute Care"
   },
   "아주대학교병원": {
     "insurances": [
@@ -330,7 +363,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Ajou University Hospital — nationally known for its Level I trauma center."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Ajou University Hospital — nationally known for its Level I trauma center.",
+    "specialty": "General / Acute Care"
   },
   "부산대학교병원": {
     "insurances": [
@@ -338,7 +372,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Pusan National University Hospital, Busan."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Pusan National University Hospital, Busan.",
+    "specialty": "General / Acute Care"
   },
   "evanston hospital": {
     "insurances": [
@@ -349,7 +384,8 @@
       "Humana",
       "Medicare",
       "Illinois Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "edward hospital": {
     "insurances": [
@@ -360,7 +396,8 @@
       "Humana",
       "Medicare",
       "Illinois Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "osf saint francis medical center": {
     "insurances": [
@@ -371,7 +408,8 @@
       "Humana",
       "Medicare",
       "Illinois Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "saint anthony medical center": {
     "insurances": [
@@ -382,7 +420,8 @@
       "Humana",
       "Medicare",
       "Illinois Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "uw health swedishamerican hospital": {
     "insurances": [
@@ -394,7 +433,8 @@
       "Humana",
       "Medicare",
       "Illinois Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "memorial medical center": {
     "insurances": [
@@ -405,7 +445,8 @@
       "Humana",
       "Medicare",
       "Illinois Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "carle foundation hospital": {
     "insurances": [
@@ -417,7 +458,8 @@
       "Humana",
       "Medicare",
       "Illinois Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "경북대학교병원": {
     "insurances": [
@@ -425,7 +467,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Kyungpook National University Hospital, Daegu."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Kyungpook National University Hospital, Daegu.",
+    "specialty": "General / Acute Care"
   },
   "충남대학교병원": {
     "insurances": [
@@ -433,7 +476,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Chungnam National University Hospital, Daejeon."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Chungnam National University Hospital, Daejeon.",
+    "specialty": "General / Acute Care"
   },
   "전남대학교병원": {
     "insurances": [
@@ -441,7 +485,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Chonnam National University Hospital, Gwangju."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Chonnam National University Hospital, Gwangju.",
+    "specialty": "General / Acute Care"
   },
   "가천대 길병원": {
     "insurances": [
@@ -449,7 +494,8 @@
       "Most Korean private supplemental (실손보험) plans",
       "International Healthcare Center: can advise on billing with foreign insurers (e.g. Cigna Global, Allianz Care, BUPA Global) — verify directly"
     ],
-    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Gachon University Gil Medical Center, Incheon."
+    "note": "South Korea's National Health Insurance (NHIS) is mandatory and accepted by virtually every licensed hospital — there's no US-style in-network/out-of-network split. Private supplemental insurance mainly reimburses copays and non-covered treatments. English name: Gachon University Gil Medical Center, Incheon.",
+    "specialty": "General / Acute Care"
   },
   "東京大学医学部附属病院": {
     "insurances": [
@@ -458,7 +504,8 @@
       "後期高齢者医療制度 (elderly 75+ coverage)",
       "Travel/international insurance: reimbursement only — payment is usually required upfront for visitors without Japanese coverage, verify directly"
     ],
-    "note": "Japan has universal public health insurance — nearly every resident is covered through either National Health Insurance (self-employed/retired) or Employees' Health Insurance (company workers), and every licensed hospital accepts both; there's no US-style in-network/out-of-network split. As one of Japan's 'special function' teaching hospitals, it also charges an extra selection fee to patients arriving without a referral letter (紹介状) from a smaller clinic. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer afterward. English name: The University of Tokyo Hospital."
+    "note": "Japan has universal public health insurance — nearly every resident is covered through either National Health Insurance (self-employed/retired) or Employees' Health Insurance (company workers), and every licensed hospital accepts both; there's no US-style in-network/out-of-network split. As one of Japan's 'special function' teaching hospitals, it also charges an extra selection fee to patients arriving without a referral letter (紹介状) from a smaller clinic. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer afterward. English name: The University of Tokyo Hospital.",
+    "specialty": "General / Acute Care"
   },
   "聖路加国際病院": {
     "insurances": [
@@ -467,7 +514,8 @@
       "後期高齢者医療制度 (elderly 75+ coverage)",
       "Travel/international insurance: reimbursement only — payment is usually required upfront for visitors without Japanese coverage, verify directly"
     ],
-    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. This hospital is specifically known for serving international/foreign patients with English-language support, though non-residents typically still pay upfront and file for reimbursement with their own travel insurer. English name: St. Luke's International Hospital, Tokyo."
+    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. This hospital is specifically known for serving international/foreign patients with English-language support, though non-residents typically still pay upfront and file for reimbursement with their own travel insurer. English name: St. Luke's International Hospital, Tokyo.",
+    "specialty": "General / Acute Care"
   },
   "京都大学医学部附属病院": {
     "insurances": [
@@ -476,7 +524,8 @@
       "後期高齢者医療制度 (elderly 75+ coverage)",
       "Travel/international insurance: reimbursement only — payment is usually required upfront for visitors without Japanese coverage, verify directly"
     ],
-    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. As a 'special function' teaching hospital it also charges an extra selection fee to patients arriving without a referral letter (紹介状) from a smaller clinic. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer. English name: Kyoto University Hospital."
+    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. As a 'special function' teaching hospital it also charges an extra selection fee to patients arriving without a referral letter (紹介状) from a smaller clinic. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer. English name: Kyoto University Hospital.",
+    "specialty": "General / Acute Care"
   },
   "九州大学病院": {
     "insurances": [
@@ -485,7 +534,8 @@
       "後期高齢者医療制度 (elderly 75+ coverage)",
       "Travel/international insurance: reimbursement only — payment is usually required upfront for visitors without Japanese coverage, verify directly"
     ],
-    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer. English name: Kyushu University Hospital, Fukuoka."
+    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer. English name: Kyushu University Hospital, Fukuoka.",
+    "specialty": "General / Acute Care"
   },
   "北海道大学病院": {
     "insurances": [
@@ -494,7 +544,8 @@
       "後期高齢者医療制度 (elderly 75+ coverage)",
       "Travel/international insurance: reimbursement only — payment is usually required upfront for visitors without Japanese coverage, verify directly"
     ],
-    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer. English name: Hokkaido University Hospital, Sapporo."
+    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer. English name: Hokkaido University Hospital, Sapporo.",
+    "specialty": "General / Acute Care"
   },
   "名古屋大学医学部附属病院": {
     "insurances": [
@@ -503,7 +554,8 @@
       "後期高齢者医療制度 (elderly 75+ coverage)",
       "Travel/international insurance: reimbursement only — payment is usually required upfront for visitors without Japanese coverage, verify directly"
     ],
-    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer. English name: Nagoya University Hospital."
+    "note": "Japan has universal public health insurance accepted by every licensed hospital — there's no US-style in-network/out-of-network split. Visitors without Japanese coverage typically pay in full upfront and file for reimbursement with their own travel insurer. English name: Nagoya University Hospital.",
+    "specialty": "General / Acute Care"
   },
   "st thomas' hospital": {
     "insurances": [
@@ -513,7 +565,8 @@
       "Vitality Health",
       "Travel/international insurance for non-NHS-entitled visitors — verify directly"
     ],
-    "note": "Under the NHS, emergency and most necessary treatment is free at the point of care for UK residents (and visitors from some reciprocal-agreement countries) — funded through general taxation, not a per-visit insurance claim. Private insurers listed here are mainly used for private wings, shorter waits for non-urgent care, or by visitors without NHS entitlement, who are otherwise billed directly and should check coverage with their own travel insurer beforehand."
+    "note": "Under the NHS, emergency and most necessary treatment is free at the point of care for UK residents (and visitors from some reciprocal-agreement countries) — funded through general taxation, not a per-visit insurance claim. Private insurers listed here are mainly used for private wings, shorter waits for non-urgent care, or by visitors without NHS entitlement, who are otherwise billed directly and should check coverage with their own travel insurer beforehand.",
+    "specialty": "General / Acute Care"
   },
   "campus charité mitte": {
     "insurances": [
@@ -522,7 +575,8 @@
       "EU/EHIC reciprocal coverage for many European visitors",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "Germany's statutory health insurance (GKV) is mandatory for most residents and accepted by every hospital; higher earners, the self-employed, and civil servants may instead hold private insurance (PKV). Note: Charité is split across several campuses in OSM/Google — this covers Campus Charité Mitte specifically, and its Emergency Department has its own separate, more heavily-reviewed Google listing."
+    "note": "Germany's statutory health insurance (GKV) is mandatory for most residents and accepted by every hospital; higher earners, the self-employed, and civil servants may instead hold private insurance (PKV). Note: Charité is split across several campuses in OSM/Google — this covers Campus Charité Mitte specifically, and its Emergency Department has its own separate, more heavily-reviewed Google listing.",
+    "specialty": "General / Acute Care"
   },
   "hôpital pitié-salpêtrière": {
     "insurances": [
@@ -531,7 +585,8 @@
       "EU/EHIC reciprocal coverage for many European visitors",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "France's statutory health insurance (Assurance Maladie) covers roughly 70% of most costs for residents, with the remainder typically covered by a supplementary \"mutuelle\" plan most French residents also carry — nearly all hospitals accept both. Visitors without French or reciprocal EU coverage are generally billed directly."
+    "note": "France's statutory health insurance (Assurance Maladie) covers roughly 70% of most costs for residents, with the remainder typically covered by a supplementary \"mutuelle\" plan most French residents also carry — nearly all hospitals accept both. Visitors without French or reciprocal EU coverage are generally billed directly.",
+    "specialty": "General / Acute Care"
   },
   "royal prince alfred hospital": {
     "insurances": [
@@ -542,7 +597,8 @@
       "nib",
       "Travel/international insurance for other overseas visitors — verify directly"
     ],
-    "note": "Australia's Medicare (a different, unrelated system from the US program of the same name) covers public hospital treatment for citizens, permanent residents, and visitors from countries with a reciprocal health care agreement. Private health insurance is mainly used for private hospital treatment, shorter elective-surgery waits, and extras (dental, physio). Other overseas visitors are typically billed directly."
+    "note": "Australia's Medicare (a different, unrelated system from the US program of the same name) covers public hospital treatment for citizens, permanent residents, and visitors from countries with a reciprocal health care agreement. Private health insurance is mainly used for private hospital treatment, shorter elective-surgery waits, and extras (dental, physio). Other overseas visitors are typically billed directly.",
+    "specialty": "General / Acute Care"
   },
   "singapore general hospital": {
     "insurances": [
@@ -551,7 +607,8 @@
       "Integrated Shield Plans (private top-up — AIA, Great Eastern, Prudential, NTUC Income)",
       "Travel/international insurance for foreign visitors — verify directly"
     ],
-    "note": "Singapore uses a hybrid system: Medisave (personal savings) and MediShield Life (basic catastrophic insurance) form the public base for citizens and permanent residents, commonly topped up with a private Integrated Shield Plan for wider coverage and choice of ward class. As a public \"restructured\" hospital, SGH accepts these alongside most major private insurers; foreign visitors without local coverage are typically billed directly and should check with their travel insurer."
+    "note": "Singapore uses a hybrid system: Medisave (personal savings) and MediShield Life (basic catastrophic insurance) form the public base for citizens and permanent residents, commonly topped up with a private Integrated Shield Plan for wider coverage and choice of ward class. As a public \"restructured\" hospital, SGH accepts these alongside most major private insurers; foreign visitors without local coverage are typically billed directly and should check with their travel insurer.",
+    "specialty": "General / Acute Care"
   },
   "taipei veterans general hospital": {
     "insurances": [
@@ -559,7 +616,8 @@
       "Most Taiwanese private supplemental (實支實付/意外) plans",
       "Travel/international insurance for foreign visitors without NHI coverage — verify directly"
     ],
-    "note": "Taiwan's National Health Insurance (NHI) is mandatory for residents and accepted by virtually every hospital and clinic nationwide — there's no US-style in-network/out-of-network split. Private supplemental plans mainly reimburse copays and non-covered treatments. Foreign visitors without NHI coverage are typically billed directly and should check with their own travel insurer."
+    "note": "Taiwan's National Health Insurance (NHI) is mandatory for residents and accepted by virtually every hospital and clinic nationwide — there's no US-style in-network/out-of-network split. Private supplemental plans mainly reimburse copays and non-covered treatments. Foreign visitors without NHI coverage are typically billed directly and should check with their own travel insurer.",
+    "specialty": "General / Acute Care"
   },
   "林口長庚紀念醫院": {
     "insurances": [
@@ -567,7 +625,8 @@
       "Most Taiwanese private supplemental (實支實付/意外) plans",
       "Travel/international insurance for foreign visitors without NHI coverage — verify directly"
     ],
-    "note": "Taiwan's National Health Insurance (NHI) is mandatory for residents and accepted by virtually every hospital and clinic nationwide — there's no US-style in-network/out-of-network split. Private supplemental plans mainly reimburse copays and non-covered treatments. Foreign visitors without NHI coverage are typically billed directly and should check with their own travel insurer. English name: Chang Gung Memorial Hospital, Linkou — Taiwan's largest private hospital."
+    "note": "Taiwan's National Health Insurance (NHI) is mandatory for residents and accepted by virtually every hospital and clinic nationwide — there's no US-style in-network/out-of-network split. Private supplemental plans mainly reimburse copays and non-covered treatments. Foreign visitors without NHI coverage are typically billed directly and should check with their own travel insurer. English name: Chang Gung Memorial Hospital, Linkou — Taiwan's largest private hospital.",
+    "specialty": "General / Acute Care"
   },
   "china medical university hospital": {
     "insurances": [
@@ -575,7 +634,8 @@
       "Most Taiwanese private supplemental (實支實付/意外) plans",
       "Travel/international insurance for foreign visitors without NHI coverage — verify directly"
     ],
-    "note": "Taiwan's National Health Insurance (NHI) is mandatory for residents and accepted by virtually every hospital and clinic nationwide — there's no US-style in-network/out-of-network split. Private supplemental plans mainly reimburse copays and non-covered treatments. Foreign visitors without NHI coverage are typically billed directly and should check with their own travel insurer. Located in Taichung; note this campus is split across several Google/OSM listings by building."
+    "note": "Taiwan's National Health Insurance (NHI) is mandatory for residents and accepted by virtually every hospital and clinic nationwide — there's no US-style in-network/out-of-network split. Private supplemental plans mainly reimburse copays and non-covered treatments. Foreign visitors without NHI coverage are typically billed directly and should check with their own travel insurer. Located in Taichung; note this campus is split across several Google/OSM listings by building.",
+    "specialty": "General / Acute Care"
   },
   "aiims emergency": {
     "insurances": [
@@ -585,7 +645,8 @@
       "Private Indian health insurers (Star Health, ICICI Lombard, HDFC Ergo, etc.) — mainly for private-room upgrades",
       "Travel/international insurance for foreign visitors — verify directly"
     ],
-    "note": "As a fully government-funded public institution, AIIMS provides most treatment free or heavily subsidized for Indian patients — there's no US-style in-network/out-of-network split, but demand is extremely high and wait times can be long. Private insurance mainly covers upgraded accommodations or is used for India's separate private-hospital sector. Note: only this hospital's Emergency Room is tagged as a distinct location in OpenStreetMap/Google — the main AIIMS campus (India's top-ranked public medical institution) is a much larger complex."
+    "note": "As a fully government-funded public institution, AIIMS provides most treatment free or heavily subsidized for Indian patients — there's no US-style in-network/out-of-network split, but demand is extremely high and wait times can be long. Private insurance mainly covers upgraded accommodations or is used for India's separate private-hospital sector. Note: only this hospital's Emergency Room is tagged as a distinct location in OpenStreetMap/Google — the main AIIMS campus (India's top-ranked public medical institution) is a much larger complex.",
+    "specialty": "Emergency Department"
   },
   "amsterdam umc locatie amc": {
     "insurances": [
@@ -594,7 +655,8 @@
       "EU/EHIC reciprocal coverage for many European visitors",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "The Netherlands requires every resident to buy private health insurance (Zorgverzekering) covering a government-regulated standard basic package — insurers must accept all applicants regardless of health status, and nearly every hospital accepts every insurer's basic plan. Supplemental private plans mainly cover extras like dental or physiotherapy. Visitors without Dutch or reciprocal EU coverage are generally billed directly."
+    "note": "The Netherlands requires every resident to buy private health insurance (Zorgverzekering) covering a government-regulated standard basic package — insurers must accept all applicants regardless of health status, and nearly every hospital accepts every insurer's basic plan. Supplemental private plans mainly cover extras like dental or physiotherapy. Visitors without Dutch or reciprocal EU coverage are generally billed directly.",
+    "specialty": "General / Acute Care"
   },
   "hospital general de méxico": {
     "insurances": [
@@ -604,7 +666,8 @@
       "Private Mexican health insurers (GNP, AXA México, MetLife México) — mainly for private hospitals",
       "Travel/international insurance for foreign visitors — verify directly"
     ],
-    "note": "As Mexico's flagship public general hospital, it primarily serves patients without formal-sector employment insurance, largely through government safety-net health programs and subsidized care — treatment is low-cost or free relative to Mexico's private hospital sector. Reviews note the facility is chronically underfunded despite this critical public role. Foreign visitors are generally billed directly."
+    "note": "As Mexico's flagship public general hospital, it primarily serves patients without formal-sector employment insurance, largely through government safety-net health programs and subsidized care — treatment is low-cost or free relative to Mexico's private hospital sector. Reviews note the facility is chronically underfunded despite this critical public role. Foreign visitors are generally billed directly.",
+    "specialty": "General / Acute Care"
   },
   "ciudad sanitaria la paz": {
     "insurances": [
@@ -616,7 +679,8 @@
       "EU/EHIC reciprocal coverage for many European visitors",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "Spain's National Health System (SNS) is funded through taxation and provides free care at the point of use for residents — there's no US-style in-network/out-of-network split. Private insurers listed here are mainly used for private hospitals, shorter waits for non-urgent elective care, or by visitors without SNS/EHIC entitlement, who are otherwise billed directly. Better known as Hospital Universitario La Paz, Madrid (its OSM-tagged official name is Ciudad Sanitaria La Paz)."
+    "note": "Spain's National Health System (SNS) is funded through taxation and provides free care at the point of use for residents — there's no US-style in-network/out-of-network split. Private insurers listed here are mainly used for private hospitals, shorter waits for non-urgent elective care, or by visitors without SNS/EHIC entitlement, who are otherwise billed directly. Better known as Hospital Universitario La Paz, Madrid (its OSM-tagged official name is Ciudad Sanitaria La Paz).",
+    "specialty": "General / Acute Care"
   },
   "hospital das clínicas": {
     "insurances": [
@@ -627,7 +691,8 @@
       "Unimed",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "Brazil's SUS is a universal, tax-funded public system that provides free care to anyone in the country, including foreign visitors, at public hospitals like this one. Private insurers (\"convênios\"), usually employer-provided, are mainly used for private hospitals or to skip SUS wait times for non-urgent care. Full name is Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo (HCFMUSP) — one of the largest hospital complexes in Latin America, run by the University of São Paulo."
+    "note": "Brazil's SUS is a universal, tax-funded public system that provides free care to anyone in the country, including foreign visitors, at public hospitals like this one. Private insurers (\"convênios\"), usually employer-provided, are mainly used for private hospitals or to skip SUS wait times for non-urgent care. Full name is Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo (HCFMUSP) — one of the largest hospital complexes in Latin America, run by the University of São Paulo.",
+    "specialty": "General / Acute Care"
   },
   "北京协和医院": {
     "insurances": [
@@ -638,7 +703,8 @@
       "International/expat private insurance — accepted at the hospital's international medical department",
       "Self-pay for visitors without Chinese national insurance — verify directly"
     ],
-    "note": "China's national basic medical insurance covers the large majority of the population but usually requires referral through a lower-tier facility first for full reimbursement at a top-tier hospital like this one, and still leaves a co-pay. Peking Union Medical College Hospital (PUMCH) is considered China's top-ranked hospital and has a dedicated international medical department for foreign patients and private-insurance/self-pay care. Google/OSM list its main East Campus separately as \"北京协和医院东院\"."
+    "note": "China's national basic medical insurance covers the large majority of the population but usually requires referral through a lower-tier facility first for full reimbursement at a top-tier hospital like this one, and still leaves a co-pay. Peking Union Medical College Hospital (PUMCH) is considered China's top-ranked hospital and has a dedicated international medical department for foreign patients and private-insurance/self-pay care. Google/OSM list its main East Campus separately as \"北京协和医院东院\".",
+    "specialty": "General / Acute Care"
   },
   "policlinico umberto i": {
     "insurances": [
@@ -648,7 +714,8 @@
       "Generali Welion",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "Italy's SSN is a tax-funded universal system, similar in structure to the UK's NHS — residents get free or nominal-copay (\"ticket\") care at public hospitals like this one. Private insurance is mainly used for private clinics or to skip public wait times for non-urgent care. Policlinico Umberto I, opened in 1903 and affiliated with Sapienza University of Rome, is one of the largest hospital complexes in Europe."
+    "note": "Italy's SSN is a tax-funded universal system, similar in structure to the UK's NHS — residents get free or nominal-copay (\"ticket\") care at public hospitals like this one. Private insurance is mainly used for private clinics or to skip public wait times for non-urgent care. Policlinico Umberto I, opened in 1903 and affiliated with Sapienza University of Rome, is one of the largest hospital complexes in Europe.",
+    "specialty": "General / Acute Care"
   },
   "chris hani baragwanath hospital": {
     "insurances": [
@@ -659,7 +726,8 @@
       "Medshield",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "South Africa has a two-tier system: public hospitals like this one are government-funded and charge low, means-tested fees (or nothing) directly, with no private-insurance billing involved, but face chronic underfunding and overcrowding. Private medical schemes (Discovery, Bonitas, etc.) are used almost exclusively at separate private hospital groups (Netcare, Life Healthcare, Mediclinic), not at public academic hospitals. Chris Hani Baragwanath, in Soweto, Johannesburg, is one of the largest hospitals in the world by bed count."
+    "note": "South Africa has a two-tier system: public hospitals like this one are government-funded and charge low, means-tested fees (or nothing) directly, with no private-insurance billing involved, but face chronic underfunding and overcrowding. Private medical schemes (Discovery, Bonitas, etc.) are used almost exclusively at separate private hospital groups (Netcare, Life Healthcare, Mediclinic), not at public academic hospitals. Chris Hani Baragwanath, in Soweto, Johannesburg, is one of the largest hospitals in the world by bed count.",
+    "specialty": "General / Acute Care"
   },
   "hospital de pediatría \"profesor doctor juan pedro garrahan\"": {
     "insurances": [
@@ -670,7 +738,8 @@
       "Galeno",
       "Travel/international insurance for foreign visitors — verify directly"
     ],
-    "note": "Hospital Garrahan is a fully public, national-government-funded pediatric hospital — treatment is free for all children regardless of insurance status or nationality, reflecting Argentina's broader public-hospital system that provides free care to anyone in the country. Private \"obras sociales\" (union/employer health funds) and \"prepagas\" (private prepaid plans like OSDE and Swiss Medical) are Argentina's main insurance types generally, but are mainly used for private clinics rather than this hospital. Widely regarded as one of Latin America's leading pediatric hospitals."
+    "note": "Hospital Garrahan is a fully public, national-government-funded pediatric hospital — treatment is free for all children regardless of insurance status or nationality, reflecting Argentina's broader public-hospital system that provides free care to anyone in the country. Private \"obras sociales\" (union/employer health funds) and \"prepagas\" (private prepaid plans like OSDE and Swiss Medical) are Argentina's main insurance types generally, but are mainly used for private clinics rather than this hospital. Widely regarded as one of Latin America's leading pediatric hospitals.",
+    "specialty": "Pediatric"
   },
   "uniwersyteckie centrum kliniczne wum": {
     "insurances": [
@@ -681,7 +750,8 @@
       "Allianz Polska",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "Poland's NFZ is a mandatory, payroll-funded national health insurance system — residents get free or low-cost care at public hospitals like this one, though non-urgent specialist care can involve long waits. Private insurers/subscription clinics (LuxMed, Medicover) are common as supplemental coverage for faster access, especially through employers. This is the Medical University of Warsaw's main clinical hospital on Banacha street — Google Maps lists it under a mix of current and older names (\"Centralny Szpital Kliniczny WUM\")."
+    "note": "Poland's NFZ is a mandatory, payroll-funded national health insurance system — residents get free or low-cost care at public hospitals like this one, though non-urgent specialist care can involve long waits. Private insurers/subscription clinics (LuxMed, Medicover) are common as supplemental coverage for faster access, especially through employers. This is the Medical University of Warsaw's main clinical hospital on Banacha street — Google Maps lists it under a mix of current and older names (\"Centralny Szpital Kliniczny WUM\").",
+    "specialty": "General / Acute Care"
   },
   "مستشفي ابو الريش الجامعي للاطفال بالمنيرة": {
     "insurances": [
@@ -692,7 +762,8 @@
       "MetLife Egypt",
       "Travel/international insurance for foreign visitors — verify directly"
     ],
-    "note": "As a Cairo University-affiliated public children's hospital, care here is largely free and reliant on public funding and donations rather than insurance billing — several reviewers specifically encourage others to donate to support treatment for children whose families can't pay. Egypt's newer Universal Health Insurance law is being phased in region by region, alongside the older Health Insurance Organization for formal employees and a private insurance market for Egypt's separate private-hospital sector. Known in English as Abu El Reesh (or Abu Al-Rish) University Children's Hospital."
+    "note": "As a Cairo University-affiliated public children's hospital, care here is largely free and reliant on public funding and donations rather than insurance billing — several reviewers specifically encourage others to donate to support treatment for children whose families can't pay. Egypt's newer Universal Health Insurance law is being phased in region by region, alongside the older Health Insurance Organization for formal employees and a private insurance market for Egypt's separate private-hospital sector. Known in English as Abu El Reesh (or Abu Al-Rish) University Children's Hospital.",
+    "specialty": "Pediatric"
   },
   "bệnh viện chợ rẫy": {
     "insurances": [
@@ -703,7 +774,8 @@
       "Manulife Vietnam",
       "Travel/international insurance for foreign visitors — verify directly"
     ],
-    "note": "Vietnam's national BHYT health insurance covers the majority of the population and pays a large share of costs at public hospitals, but reimbursement is highest when patients go through a referral from a lower-tier facility first — going directly to a top-tier hospital like this one without one usually means a lower reimbursement rate. Private insurers are commonly used as supplemental coverage or by foreign residents. Cho Ray Hospital is Vietnam's largest and one of its most prestigious hospitals, drawing patients referred from across the southern half of the country."
+    "note": "Vietnam's national BHYT health insurance covers the majority of the population and pays a large share of costs at public hospitals, but reimbursement is highest when patients go through a referral from a lower-tier facility first — going directly to a top-tier hospital like this one without one usually means a lower reimbursement rate. Private insurers are commonly used as supplemental coverage or by foreign residents. Cho Ray Hospital is Vietnam's largest and one of its most prestigious hospitals, drawing patients referred from across the southern half of the country.",
+    "specialty": "General / Acute Care"
   },
   "i̇stanbul üniversitesi tıp fakültesi hastanesi": {
     "insurances": [
@@ -714,7 +786,8 @@
       "Anadolu Sigorta",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "Turkey's SGK is a mandatory national health insurance system funded through payroll and government contributions, and public university hospitals like this one accept it directly. Private complementary insurance is mainly used for private hospitals or to reduce SGK co-pays. Also known as Çapa Hospital, this is one of two hospitals (along with the separately administered Cerrahpaşa Hospital) that trace back to Istanbul University's medical faculty, and the two are still sometimes confused with each other."
+    "note": "Turkey's SGK is a mandatory national health insurance system funded through payroll and government contributions, and public university hospitals like this one accept it directly. Private complementary insurance is mainly used for private hospitals or to reduce SGK co-pays. Also known as Çapa Hospital, this is one of two hospitals (along with the separately administered Cerrahpaşa Hospital) that trace back to Istanbul University's medical faculty, and the two are still sometimes confused with each other.",
+    "specialty": "General / Acute Care"
   },
   "karolinska universitetssjukhuset": {
     "insurances": [
@@ -725,7 +798,8 @@
       "Trygg-Hansa",
       "Travel/international insurance for other visitors — verify directly"
     ],
-    "note": "Sweden's healthcare is funded through regional taxation, and residents pay only a small fixed fee per visit, capped annually — there's no US-style in-network/out-of-network split, and private insurance is uncommon for a hospital like this one, used mostly to skip queues for non-urgent private care. Karolinska University Hospital is one of Europe's largest and most research-intensive hospitals, closely tied to the Karolinska Institute, which awards the Nobel Prize in Physiology or Medicine."
+    "note": "Sweden's healthcare is funded through regional taxation, and residents pay only a small fixed fee per visit, capped annually — there's no US-style in-network/out-of-network split, and private insurance is uncommon for a hospital like this one, used mostly to skip queues for non-urgent private care. Karolinska University Hospital is one of Europe's largest and most research-intensive hospitals, closely tied to the Karolinska Institute, which awards the Nobel Prize in Physiology or Medicine.",
+    "specialty": "General / Acute Care"
   },
   "philippine general hospital": {
     "insurances": [
@@ -736,7 +810,8 @@
       "Intellicare",
       "Travel/international insurance for foreign visitors — verify directly"
     ],
-    "note": "PhilHealth is the Philippines' mandatory national insurance program, but it typically covers only part of a hospital bill, especially at private facilities. Philippine General Hospital is a public, government-subsidized hospital known for being far cheaper than private alternatives, with separate free \"service\" wards for indigent patients alongside paying wards — private HMOs (Maxicare, Medicard, etc.) are mainly used at private hospitals instead. Run by the University of the Philippines Manila, it's the country's largest public tertiary hospital."
+    "note": "PhilHealth is the Philippines' mandatory national insurance program, but it typically covers only part of a hospital bill, especially at private facilities. Philippine General Hospital is a public, government-subsidized hospital known for being far cheaper than private alternatives, with separate free \"service\" wards for indigent patients alongside paying wards — private HMOs (Maxicare, Medicard, etc.) are mainly used at private hospitals instead. Run by the University of the Philippines Manila, it's the country's largest public tertiary hospital.",
+    "specialty": "General / Acute Care"
   },
   "clínica san ignacio": {
     "insurances": [
@@ -747,7 +822,8 @@
       "Colsanitas (private/prepaid plans for faster access)",
       "Travel/international insurance for foreign visitors — verify directly"
     ],
-    "note": "Colombia's SGSSS requires everyone to be enrolled in an EPS (health-plan administrator), either through the contributory regime (formal employment) or the subsidized regime (low-income residents), which then contracts with hospitals like this one for care. \"Medicina prepagada\" (private prepaid plans) exist on top of this for faster access or upgraded private rooms. Hospital Universitario San Ignacio is run by the Pontificia Universidad Javeriana and is one of Colombia's top-ranked teaching hospitals, though recent reviews describe significant strain on its emergency department."
+    "note": "Colombia's SGSSS requires everyone to be enrolled in an EPS (health-plan administrator), either through the contributory regime (formal employment) or the subsidized regime (low-income residents), which then contracts with hospitals like this one for care. \"Medicina prepagada\" (private prepaid plans) exist on top of this for faster access or upgraded private rooms. Hospital Universitario San Ignacio is run by the Pontificia Universidad Javeriana and is one of Colombia's top-ranked teaching hospitals, though recent reviews describe significant strain on its emergency department.",
+    "specialty": "General / Acute Care"
   },
   "newyork-presbyterian lower manhattan hospital": {
     "insurances": [
@@ -758,7 +834,8 @@
       "Oxford Health Plans",
       "Medicare",
       "Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "new york eye and ear infirmary of mount sinai": {
     "insurances": [
@@ -768,7 +845,8 @@
       "UnitedHealthcare",
       "Medicare",
       "Medicaid"
-    ]
+    ],
+    "specialty": "Eye & ENT"
   },
   "lenox health greenwich village": {
     "insurances": [
@@ -780,7 +858,9 @@
       "Medicare",
       "Medicaid"
     ],
-    "note": "This is Northwell Health's free-standing emergency department for Greenwich Village — it treats emergencies but does not admit inpatients overnight; more complex cases are transferred to Lenox Hill Hospital uptown."
+    "note": "This is Northwell Health's free-standing emergency department for Greenwich Village — it treats emergencies but does not admit inpatients overnight; more complex cases are transferred to Lenox Hill Hospital uptown.",
+    "specialty": "Emergency Department",
+    "erWaitUrl": "https://www.northwell.edu/wait-times"
   },
   "nyu langone orthopedic hospital": {
     "insurances": [
@@ -790,7 +870,8 @@
       "Medicaid",
       "Oxford Health Plans",
       "UnitedHealthcare"
-    ]
+    ],
+    "specialty": "Orthopedic"
   },
   "hoboken university medical center": {
     "insurances": [
@@ -800,7 +881,8 @@
       "UnitedHealthcare",
       "Medicare",
       "Medicaid"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "jersey city medical center": {
     "insurances": [
@@ -811,7 +893,8 @@
       "Medicare",
       "Medicaid",
       "Charity Care (NJ's free/reduced-cost program for eligible uninsured patients)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "hassenfeild children's hospital at nyu lagone": {
     "insurances": [
@@ -822,7 +905,8 @@
       "Oxford Health Plans",
       "UnitedHealthcare"
     ],
-    "note": "NYU Langone's dedicated children's hospital (its own OpenStreetMap listing has minor typos in the name — officially Hassenfeld Children's Hospital at NYU Langone)."
+    "note": "NYU Langone's dedicated children's hospital (its own OpenStreetMap listing has minor typos in the name — officially Hassenfeld Children's Hospital at NYU Langone).",
+    "specialty": "Pediatric"
   },
   "brooklyn hospital center": {
     "insurances": [
@@ -833,7 +917,8 @@
       "Medicare",
       "Medicaid",
       "NYC Care"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "nyu langone outpatient surgery center": {
     "insurances": [
@@ -843,13 +928,15 @@
       "Oxford Health Plans",
       "UnitedHealthcare"
     ],
-    "note": "An outpatient surgical center rather than a full hospital — used for same-day procedures like the trigger-finger release and minor orthopedic surgeries reviewers describe, not overnight stays or emergencies."
+    "note": "An outpatient surgical center rather than a full hospital — used for same-day procedures like the trigger-finger release and minor orthopedic surgeries reviewers describe, not overnight stays or emergencies.",
+    "specialty": "Outpatient Surgery"
   },
   "veteran affairs new york harbor healthcare system": {
     "insurances": [
       "Free or low-cost for enrolled, eligible U.S. veterans through VA health benefits — no private insurance needed"
     ],
-    "note": "As a Department of Veterans Affairs hospital, care here is provided directly through VA health benefits to enrolled veterans, not billed to private insurance in the usual sense. Eligibility and copays depend on the veteran's assigned VA priority group and service-connected disability rating."
+    "note": "As a Department of Veterans Affairs hospital, care here is provided directly through VA health benefits to enrolled veterans, not billed to private insurance in the usual sense. Eligibility and copays depend on the veteran's assigned VA priority group and service-connected disability rating.",
+    "specialty": "Veterans Affairs (VA)"
   },
   "los angeles general medical center": {
     "insurances": [
@@ -860,7 +947,8 @@
       "Health Net",
       "Most major commercial plans"
     ],
-    "note": "LA County's flagship public safety-net hospital (formerly known as LAC+USC Medical Center), affiliated with USC's medical school. It serves a very high volume of patients, including uninsured and low-income residents through LA County's own coverage programs."
+    "note": "LA County's flagship public safety-net hospital (formerly known as LAC+USC Medical Center), affiliated with USC's medical school. It serves a very high volume of patients, including uninsured and low-income residents through LA County's own coverage programs.",
+    "specialty": "General / Acute Care"
   },
   "white memorial medical center": {
     "insurances": [
@@ -872,7 +960,8 @@
       "Medicare",
       "Medi-Cal (Medicaid)"
     ],
-    "note": "Now operating as Adventist Health White Memorial after a rebrand — Google and other listings may show the newer name."
+    "note": "Now operating as Adventist Health White Memorial after a rebrand — Google and other listings may show the newer name.",
+    "specialty": "General / Acute Care"
   },
   "good samaritan hospital": {
     "insurances": [
@@ -884,7 +973,8 @@
       "Medicare",
       "Medi-Cal (Medicaid)"
     ],
-    "note": "Operates as PIH Health Good Samaritan Hospital — Google and other listings may show the newer name."
+    "note": "Operates as PIH Health Good Samaritan Hospital — Google and other listings may show the newer name.",
+    "specialty": "General / Acute Care"
   },
   "usc norris cancer hospital": {
     "insurances": [
@@ -896,7 +986,8 @@
       "Medicare",
       "Medi-Cal (Medicaid)"
     ],
-    "note": "A specialized cancer hospital, part of Keck Medicine of USC — typically used for oncology care, often alongside or following treatment at Keck Hospital of USC next door."
+    "note": "A specialized cancer hospital, part of Keck Medicine of USC — typically used for oncology care, often alongside or following treatment at Keck Hospital of USC next door.",
+    "specialty": "Cancer"
   },
   "california hospital medical center": {
     "insurances": [
@@ -908,7 +999,8 @@
       "Medicare",
       "Medi-Cal (Medicaid)"
     ],
-    "note": "Operates as Dignity Health - California Hospital Medical Center — Google and other listings may show the fuller name."
+    "note": "Operates as Dignity Health - California Hospital Medical Center — Google and other listings may show the fuller name.",
+    "specialty": "General / Acute Care"
   },
   "gateways hospital": {
     "insurances": [
@@ -920,7 +1012,8 @@
       "Medicare",
       "Medi-Cal (Medicaid)"
     ],
-    "note": "A psychiatric hospital and mental health treatment center (Gateways Hospital and Mental Health Center) — offers inpatient and residential mental health care, not general/emergency medicine."
+    "note": "A psychiatric hospital and mental health treatment center (Gateways Hospital and Mental Health Center) — offers inpatient and residential mental health care, not general/emergency medicine.",
+    "specialty": "Psychiatric / Mental Health"
   },
   "keck hospital of usc": {
     "insurances": [
@@ -931,7 +1024,8 @@
       "Health Net",
       "Medicare",
       "Medi-Cal (Medicaid)"
-    ]
+    ],
+    "specialty": "General / Acute Care"
   },
   "barlow respiratory hospital": {
     "insurances": [
@@ -941,13 +1035,15 @@
       "Health Net",
       "Most major commercial plans (verify directly — long-term acute care coverage rules differ from general hospitals)"
     ],
-    "note": "A specialized long-term acute care hospital for patients needing ventilator support and weaning, tracheostomy care, and complex respiratory rehabilitation — not a general ER or short-stay hospital. Patients are typically transferred here from another hospital rather than arriving directly."
+    "note": "A specialized long-term acute care hospital for patients needing ventilator support and weaning, tracheostomy care, and complex respiratory rehabilitation — not a general ER or short-stay hospital. Patients are typically transferred here from another hospital rather than arriving directly.",
+    "specialty": "Long-Term Respiratory Care"
   },
   "kaiser foundation hospital mental health center": {
     "insurances": [
       "Kaiser Permanente health plans only — this facility generally does not accept other insurance"
     ],
-    "note": "A Kaiser Permanente inpatient psychiatric and mental health facility. As with most Kaiser Permanente facilities, care here is normally restricted to patients enrolled in a Kaiser Permanente health plan, unlike most other hospitals in this app which accept a range of insurers."
+    "note": "A Kaiser Permanente inpatient psychiatric and mental health facility. As with most Kaiser Permanente facilities, care here is normally restricted to patients enrolled in a Kaiser Permanente health plan, unlike most other hospitals in this app which accept a range of insurers.",
+    "specialty": "Psychiatric / Mental Health"
   },
   "joshua house health center": {
     "insurances": [
@@ -955,6 +1051,7 @@
       "Medi-Cal (Medicaid)",
       "Medicare"
     ],
-    "note": "Despite being tagged as a hospital in OpenStreetMap, this is a primary-care community health clinic (run by LA Christian Health Centers) in Skid Row, not a full hospital with emergency or inpatient care — it offers medical, dental, and pharmacy services on a free or sliding-scale basis."
+    "note": "Despite being tagged as a hospital in OpenStreetMap, this is a primary-care community health clinic (run by LA Christian Health Centers) in Skid Row, not a full hospital with emergency or inpatient care — it offers medical, dental, and pharmacy services on a free or sliding-scale basis.",
+    "specialty": "Community Health Clinic"
   }
 }

@@ -325,6 +325,69 @@ function getSelectedInsurance() {
   return select && select.value ? select.value : null;
 }
 
+const SPECIALTY_FILTER_KEY = 'hospitalsMap.specialtyFilter';
+const DEFAULT_SPECIALTY = 'General / Acute Care';
+
+function collectSpecialtyOptions() {
+  const set = new Set();
+  Object.entries(insuranceData).forEach(([key, val]) => {
+    if (key === '_readme') return;
+    if (val.specialty) set.add(val.specialty);
+  });
+  return Array.from(set).sort((a, b) => a.localeCompare(b));
+}
+
+function populateSpecialtyOptions() {
+  const select = document.getElementById('specialty-select');
+  if (!select) return;
+  const options = collectSpecialtyOptions();
+  let saved = null;
+  try { saved = localStorage.getItem(SPECIALTY_FILTER_KEY); } catch (e) { /* ignore */ }
+
+  select.innerHTML = '<option value="">Any / show all</option>' +
+    options.map(name => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`).join('');
+  if (saved && options.includes(saved)) select.value = saved;
+
+  select.addEventListener('change', () => {
+    try { localStorage.setItem(SPECIALTY_FILTER_KEY, select.value); } catch (e) { /* ignore */ }
+    refreshHospitalDisplay();
+  });
+}
+
+function getSelectedSpecialty() {
+  const select = document.getElementById('specialty-select');
+  return select && select.value ? select.value : null;
+}
+
+// Google's own 5-star-down-to-1-star review counts, shown as a tiny bar chart.
+// Only rendered when sourced directly from real review data (see reviews-data.json's _readme).
+function renderRatingBreakdown(breakdown) {
+  if (!Array.isArray(breakdown) || breakdown.length !== 5) return '';
+  const labels = ['5★', '4★', '3★', '2★', '1★'];
+  const max = Math.max(...breakdown, 1);
+  const rows = breakdown.map((count, i) => {
+    const pct = Math.round((count / max) * 100);
+    return (
+      `<div class="rating-bar-row">` +
+      `<span class="rating-bar-label">${labels[i]}</span>` +
+      `<span class="rating-bar-track"><span class="rating-bar-fill" style="width:${pct}%"></span></span>` +
+      `<span class="rating-bar-count">${count.toLocaleString()}</span>` +
+      `</div>`
+    );
+  }).join('');
+  return `<div class="rating-breakdown">${rows}</div>`;
+}
+
+// Google's own extracted review topics (e.g. "Nurses · 47"), curated in the data
+// file to drop mistranslated/nonsensical chips. Only shown when present.
+function renderTopics(topics) {
+  if (!Array.isArray(topics) || !topics.length) return '';
+  const chips = topics
+    .map(([label, count]) => `<span class="topic-chip">${escapeHtml(label)} · ${count}</span>`)
+    .join('');
+  return `<div class="topics-row">${chips}</div>`;
+}
+
 function renderReviewSummary(review) {
   if (!review) {
     return '<div class="reviews-empty">Coming soon</div>';
@@ -334,6 +397,8 @@ function renderReviewSummary(review) {
     const count = review.reviewCount != null ? ` (${review.reviewCount.toLocaleString()} ratings)` : '';
     lines.push(`<div class="reviews-rating">⭐ ${Number(review.rating).toFixed(1)}${count}</div>`);
   }
+  lines.push(renderRatingBreakdown(review.ratingBreakdown));
+  lines.push(renderTopics(review.topics));
   if (review.summary) {
     lines.push(`<div class="review-snippet">${escapeHtml(review.summary)}</div>`);
   }
@@ -355,9 +420,13 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-function buildPopupHtml(h, status, insurance, review, distanceKm, matchesInsurance) {
+function buildPopupHtml(h, status, insurance, review, distanceKm, matchesInsurance, matchesSpecialty) {
   const lines = [`<strong>${escapeHtml(h.name)}</strong>`];
   lines.push(statusBadge(status));
+  const specialty = insurance && insurance.specialty;
+  if (specialty && specialty !== DEFAULT_SPECIALTY) {
+    lines.push(`<span class="badge specialty${matchesSpecialty ? ' specialty-match' : ''}">${escapeHtml(specialty)}</span>`);
+  }
   if (matchesInsurance) lines.push('<div><span class="badge match">✓ Accepts your insurance</span></div>');
   if (h.emergency) lines.push('<div>🚑 Emergency department</div>');
   if (h.openingHoursRaw) lines.push(`<div class="popup-hours">Hours: ${escapeHtml(h.openingHoursRaw)}</div>`);
@@ -367,6 +436,9 @@ function buildPopupHtml(h, status, insurance, review, distanceKm, matchesInsuran
   }
   if (h.phone) lines.push(`<div>📞 ${escapeHtml(h.phone)}</div>`);
   if (h.website) lines.push(`<div><a href="${escapeHtml(h.website)}" target="_blank" rel="noopener">Website</a></div>`);
+  if (insurance && insurance.erWaitUrl) {
+    lines.push(`<div>⏱️ <a href="${escapeHtml(insurance.erWaitUrl)}" target="_blank" rel="noopener">Check current ER wait time</a></div>`);
+  }
   lines.push(
     '<div class="popup-insurance"><strong>Insurance accepted:</strong><br>' +
     (insurance ? escapeHtml(insurance.insurances.join(', ')) : 'Not listed — verify with the hospital') +
@@ -400,7 +472,9 @@ function refreshHospitalDisplay() {
   }
 
   const selectedInsurance = getSelectedInsurance();
+  const selectedSpecialty = getSelectedSpecialty();
   const distanceRef = trueUserLocation || lastSearchCenter;
+  const activeFilterCount = (selectedInsurance ? 1 : 0) + (selectedSpecialty ? 1 : 0);
 
   const decorated = lastHospitals.map(h => {
     const status = evaluateOpeningHours(h.openingHoursRaw);
@@ -410,42 +484,57 @@ function refreshHospitalDisplay() {
       ? haversineDistanceKm(distanceRef.lat, distanceRef.lon, h.lat, h.lon)
       : null;
     const matchesInsurance = !!(selectedInsurance && insurance && insurance.insurances.includes(selectedInsurance));
-    return { h, status, insurance, review, distanceKm, matchesInsurance };
+    const matchesSpecialty = !!(selectedSpecialty && insurance && insurance.specialty === selectedSpecialty);
+    const matchScore = (selectedInsurance && matchesInsurance ? 1 : 0) + (selectedSpecialty && matchesSpecialty ? 1 : 0);
+    return { h, status, insurance, review, distanceKm, matchesInsurance, matchesSpecialty, matchScore };
   });
 
-  // Best match first: hospitals accepting the selected insurance, nearest first
-  // within each group (a real "recommendation" once both filters are set).
+  // Best match first: hospitals satisfying the active filters (insurance and/or
+  // type of care), nearest first within each group — a real "recommendation"
+  // once filters are set.
   decorated.sort((a, b) => {
-    if (selectedInsurance && a.matchesInsurance !== b.matchesInsurance) {
-      return a.matchesInsurance ? -1 : 1;
+    if (activeFilterCount && a.matchScore !== b.matchScore) {
+      return b.matchScore - a.matchScore;
     }
     if (a.distanceKm != null && b.distanceKm != null) return a.distanceKm - b.distanceKm;
     return 0;
   });
 
+  const statusParts = [`Found ${decorated.length} hospital${decorated.length === 1 ? '' : 's'}`];
   if (selectedInsurance) {
     const matchCount = decorated.filter(d => d.matchesInsurance).length;
-    setStatus(
-      matchCount > 0
-        ? `Found ${decorated.length} hospitals — ${matchCount} listed as accepting ${selectedInsurance}.`
-        : `Found ${decorated.length} hospitals — none listed as accepting ${selectedInsurance} here. Showing all.`
-    );
-  } else {
-    setStatus(`Found ${decorated.length} hospital${decorated.length === 1 ? '' : 's'}.`);
+    statusParts.push(matchCount > 0
+      ? `${matchCount} listed as accepting ${selectedInsurance}`
+      : `none listed as accepting ${selectedInsurance} here`);
   }
+  if (selectedSpecialty) {
+    const matchCount = decorated.filter(d => d.matchesSpecialty).length;
+    statusParts.push(matchCount > 0
+      ? `${matchCount} tagged ${selectedSpecialty}`
+      : `none tagged ${selectedSpecialty} here`);
+  }
+  setStatus(statusParts.length > 1
+    ? `${statusParts[0]} — ${statusParts.slice(1).join('; ')}.`
+    : `${statusParts[0]}.`);
 
-  decorated.forEach(({ h, status, insurance, review, distanceKm, matchesInsurance }, idx) => {
+  decorated.forEach(({ h, status, insurance, review, distanceKm, matchesInsurance, matchesSpecialty, matchScore }, idx) => {
     const marker = L.marker([h.lat, h.lon]);
-    marker.bindPopup(buildPopupHtml(h, status, insurance, review, distanceKm, matchesInsurance));
+    marker.bindPopup(buildPopupHtml(h, status, insurance, review, distanceKm, matchesInsurance, matchesSpecialty));
     marker.addTo(markersLayer);
 
-    const isBestMatch = matchesInsurance && idx === 0;
+    const isBestMatch = activeFilterCount > 0 && matchScore === activeFilterCount && idx === 0;
+    const specialty = insurance && insurance.specialty;
+    const showSpecialtyChip = specialty && specialty !== DEFAULT_SPECIALTY;
     const li = document.createElement('li');
-    li.className = 'hospital-item' + (matchesInsurance ? ' insurance-match' : '');
+    li.className = 'hospital-item' +
+      (matchesInsurance ? ' insurance-match' : '') +
+      (matchesSpecialty ? ' specialty-match-item' : '');
     li.innerHTML = `
       <div class="hospital-name">${escapeHtml(h.name)}</div>
       ${statusBadge(status)}
-      ${matchesInsurance ? `<span class="badge match">${isBestMatch ? '⭐ Best match' : '✓ Accepts your insurance'}</span>` : ''}
+      ${showSpecialtyChip ? `<span class="badge specialty${matchesSpecialty ? ' specialty-match' : ''}">${escapeHtml(specialty)}</span>` : ''}
+      ${isBestMatch ? '<span class="badge match">⭐ Best match</span>' : ''}
+      ${!isBestMatch && matchesInsurance ? '<span class="badge match">✓ Accepts your insurance</span>' : ''}
       <div class="hospital-address">${escapeHtml(h.address || 'Address unavailable')}</div>
       ${trueUserLocation && distanceKm != null ? `<div class="hospital-distance">${formatDistance(distanceKm, trueUserLocation.useMiles)} away</div>` : ''}
     `;
@@ -533,6 +622,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   insuranceData = await loadJsonData('insurance-data.json');
   reviewsData = await loadJsonData('reviews-data.json');
   populateInsuranceOptions();
+  populateSpecialtyOptions();
 
   const autoLocateToggle = document.getElementById('auto-locate-toggle');
   if (autoLocateToggle) {
