@@ -1471,5 +1471,121 @@
     ],
     "specialty": "General / Acute Care",
     "note": "Home of Swedish's neuroscience and cardiac programs."
+  },
+  "baylor university medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Texas",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Texas Medicaid"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Part of Baylor Scott & White Health; also home to a major transplant institute."
+  },
+  "methodist dallas medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Texas",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Texas Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "texas scottish rite hospital for children": {
+    "insurances": [
+      "Blue Cross Blue Shield of Texas",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Texas Medicaid"
+    ],
+    "specialty": "Pediatric",
+    "note": "A children's orthopedic specialty hospital (scoliosis, spine, and bone/joint conditions); Google lists it as \"Dallas Scottish Rite for Children\". Billing and financial-assistance policies differ from typical hospitals — verify directly."
+  },
+  "baylor scott & white heart and vascular hospital": {
+    "insurances": [
+      "Blue Cross Blue Shield of Texas",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Texas Medicaid"
+    ],
+    "specialty": "Heart & Vascular",
+    "note": "Google lists this as \"Baylor Scott & White The Heart Hospital - Dallas\" — a specialty cardiac hospital rather than a full general hospital."
+  },
+  "phoenix children's hospital": {
+    "insurances": [
+      "Blue Cross Blue Shield of Arizona",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "AHCCCS (Arizona Medicaid)"
+    ],
+    "specialty": "Pediatric",
+    "note": "Google lists the main campus as \"Phoenix Children's Hospital - Thomas Campus\"."
+  },
+  "valleywise health medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Arizona",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "AHCCCS (Arizona Medicaid)",
+      "Maricopa County financial assistance programs (verify directly)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Maricopa County's public safety-net hospital and home of a regional burn center."
+  },
+  "dignity health st joseph's hospital and medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Arizona",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "AHCCCS (Arizona Medicaid)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Also home to the Barrow Neurological Institute on the same campus."
+  },
+  "uc san diego medical center": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Google lists this campus as \"Hillcrest Medical Center at UC San Diego Health\"."
+  },
+  "scripps mercy hospital": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)"
+    ],
+    "specialty": "General / Acute Care"
   }
 }
