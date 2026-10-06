@@ -1321,5 +1321,155 @@
     ],
     "specialty": "Long-Term Respiratory Care",
     "note": "A long-term acute care and rehabilitation facility, often used for patients transferred from an ICU — not a general ER."
+  },
+  "boston children's hospital": {
+    "insurances": [
+      "Blue Cross Blue Shield of Massachusetts",
+      "Harvard Pilgrim Health Care",
+      "Tufts Health Plan",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MassHealth (Medicaid)"
+    ],
+    "specialty": "Pediatric"
+  },
+  "brigham and women's hospital": {
+    "insurances": [
+      "Blue Cross Blue Shield of Massachusetts",
+      "Harvard Pilgrim Health Care",
+      "Tufts Health Plan",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MassHealth (Medicaid)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Part of Mass General Brigham."
+  },
+  "beth israel deaconess medical center east campus": {
+    "insurances": [
+      "Blue Cross Blue Shield of Massachusetts",
+      "Harvard Pilgrim Health Care",
+      "Tufts Health Plan",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MassHealth (Medicaid)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Google lists the East and West Campus buildings under one Beth Israel Deaconess Medical Center page; reviews shown are for that combined listing."
+  },
+  "beth israel deaconess medical center west campus": {
+    "insurances": [
+      "Blue Cross Blue Shield of Massachusetts",
+      "Harvard Pilgrim Health Care",
+      "Tufts Health Plan",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MassHealth (Medicaid)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Google lists the East and West Campus buildings under one Beth Israel Deaconess Medical Center page; reviews shown are for that combined listing."
+  },
+  "dana-farber cancer institute": {
+    "insurances": [
+      "Blue Cross Blue Shield of Massachusetts",
+      "Harvard Pilgrim Health Care",
+      "Tufts Health Plan",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MassHealth (Medicaid)"
+    ],
+    "specialty": "Cancer",
+    "note": "A cancer treatment center affiliated with Harvard Medical School, working alongside Brigham and Women's Hospital and Boston Children's."
+  },
+  "tufts medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Massachusetts",
+      "Harvard Pilgrim Health Care",
+      "Tufts Health Plan",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MassHealth (Medicaid)"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "boston medical center": {
+    "insurances": [
+      "Blue Cross Blue Shield of Massachusetts",
+      "Harvard Pilgrim Health Care",
+      "Tufts Health Plan",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MassHealth (Medicaid)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Boston's largest safety-net hospital; large share of MassHealth and uninsured patients."
+  },
+  "massachusetts eye and ear": {
+    "insurances": [
+      "Blue Cross Blue Shield of Massachusetts",
+      "Harvard Pilgrim Health Care",
+      "Tufts Health Plan",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MassHealth (Medicaid)"
+    ],
+    "specialty": "Eye & ENT",
+    "note": "Part of Mass General Brigham. Google lists the main campus as \"Mass. Eye and Ear, Main Campus\"."
+  },
+  "va medical center - seattle": {
+    "insurances": [
+      "Free or low-cost for enrolled, eligible U.S. veterans through VA health benefits — no private insurance needed"
+    ],
+    "specialty": "Veterans Affairs (VA)",
+    "note": "Operates as VA Puget Sound Health Care System — Seattle division."
+  },
+  "kaiser permanente capitol hill campus": {
+    "insurances": [
+      "Kaiser Permanente (Washington) health plans — care here is generally limited to Kaiser Permanente members"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "A Kaiser Permanente medical campus offering primary care, specialty care, and urgent care. As with most Kaiser facilities, access is normally restricted to enrolled Kaiser Permanente members."
+  },
+  "swedish first hill medical center": {
+    "insurances": [
+      "Premera Blue Cross",
+      "Regence BlueShield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "Washington Apple Health (Medicaid)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Google lists this as \"Swedish Hospital - First Hill Campus\"."
+  },
+  "swedish medical center cherry hill campus": {
+    "insurances": [
+      "Premera Blue Cross",
+      "Regence BlueShield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "Washington Apple Health (Medicaid)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Home of Swedish's neuroscience and cardiac programs."
   }
 }

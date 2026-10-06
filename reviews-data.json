@@ -1490,5 +1490,287 @@
     "reviewCount": 49,
     "asOf": "2026-10",
     "summary": "A long-term acute care and rehabilitation site, often used for patients transferred from an ICU. One reviewer thanks nurses, orderlies, dietary staff, and the physical therapy team by department for helping him recover safely. A sharply negative review warns against the facility's rehab program entirely, without detail. Another flags a billing concern: doctors reportedly ordered tests not covered by insurance without informing the patient beforehand that they'd be billed directly. A particularly difficult account describes a husband transferred here from the ICU for pneumonia and lung-cancer complications requiring high-flow oxygen — nursing care was good, but the family found it distressing that social workers and counselors raised the question of starting home hospice three times within a few days."
+  },
+  "boston children's hospital": {
+    "rating": 4.1,
+    "reviewCount": 14,
+    "asOf": "2026-10",
+    "summary": "A very small review sample for a hospital of this size — treat it as limited, since most of the hospital's patient feedback is split across department-level listings. Visible reviews are all positive (\"the best hospital I've ever been to\", kind staff, a donor praising the blood-donation team), and the hospital's own listing highlights its #1 pediatrics ranking on Newsweek's 2027 World's Best Specialized Hospitals list."
+  },
+  "brigham and women's hospital": {
+    "rating": 3.3,
+    "reviewCount": 709,
+    "ratingBreakdown": [
+      356,
+      36,
+      27,
+      32,
+      258
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Surgeons",
+        22
+      ],
+      [
+        "Caring staff",
+        11
+      ],
+      [
+        "Pain management",
+        8
+      ],
+      [
+        "ER",
+        6
+      ]
+    ],
+    "summary": "Sharply bimodal (356 five-star vs. 258 one-star out of 709). A spine-surgery patient reports outstanding results and credits the nurses entirely for making his recovery possible, urging the system to pay them properly. Complaints include unhelpful, hard-to-reach customer support, a patient unable to find a primary-care doctor for over a year, an alleged dispute with security guards at the Francis Street lobby over parking, and a distressing account from a family with a relative dying in the ICU who say a nurse lied and then retaliated against them — a serious, unverified allegation."
+  },
+  "beth israel deaconess medical center east campus": {
+    "rating": 4.5,
+    "reviewCount": 2836,
+    "ratingBreakdown": [
+      2345,
+      122,
+      26,
+      42,
+      301
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Orthopedic surgeon",
+        133
+      ],
+      [
+        "Injury care",
+        65
+      ],
+      [
+        "Knee surgery",
+        23
+      ],
+      [
+        "Shoulder surgery",
+        19
+      ]
+    ],
+    "summary": "Overwhelmingly positive in the visible reviews (2,345 five-star vs. 301 one-star out of 2,836), though much of this listing's feedback concerns its orthopedic and spine practices — Drs. Ramappa, Davis, and Friedberg are each praised by name for careful listening and excellent surgical results (shoulder, bicep tendon, rotator cuff). Review snippets also praise the ICU team and staff kindness; one patient complained a kitchen refused a meal order after a day of fasting. Google combines the East and West Campus buildings under this one listing."
+  },
+  "beth israel deaconess medical center west campus": {
+    "rating": 4.5,
+    "reviewCount": 2836,
+    "ratingBreakdown": [
+      2345,
+      122,
+      26,
+      42,
+      301
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Orthopedic surgeon",
+        133
+      ],
+      [
+        "Injury care",
+        65
+      ],
+      [
+        "Knee surgery",
+        23
+      ],
+      [
+        "Shoulder surgery",
+        19
+      ]
+    ],
+    "summary": "Overwhelmingly positive in the visible reviews (2,345 five-star vs. 301 one-star out of 2,836), though much of this listing's feedback concerns its orthopedic and spine practices — Drs. Ramappa, Davis, and Friedberg are each praised by name for careful listening and excellent surgical results (shoulder, bicep tendon, rotator cuff). Review snippets also praise the ICU team and staff kindness; one patient complained a kitchen refused a meal order after a day of fasting. Google combines the East and West Campus buildings under this one listing."
+  },
+  "dana-farber cancer institute": {
+    "rating": 3.9,
+    "reviewCount": 295,
+    "asOf": "2026-10",
+    "summary": "A cancer treatment center where the visible feedback is limited: highlighted reviews call it a \"great place for cancer treatments\" with wonderful doctors, and one patient who describes themselves as picky says the care was excellent. Reviews of its individual treatment-center sub-listings (breast, head and neck, sarcoma, Jimmy Fund Clinic for children at 4.5★) are similarly positive but each have very few ratings; the hematologic oncology sub-listing has a single 1-star rating with no detail."
+  },
+  "tufts medical center": {
+    "rating": 3.2,
+    "reviewCount": 618,
+    "ratingBreakdown": [
+      290,
+      41,
+      22,
+      25,
+      240
+    ],
+    "asOf": "2026-10",
+    "summary": "Split between devoted praise and frustration (290 five-star vs. 240 one-star out of 618). Visible reviews are strongly positive about specific units: a family whose sister spent two years on the North 8 oncology floor says the nurses and doctors \"genuinely loved\" her, a father credits Dr. Klein's team on the same floor through his daughter's 9-month cancer battle, the 4 North surgical floor staff are called amazing and compassionate, and two reviewers praise labor-and-delivery staff, one saying the contrast with another hospital's care was dramatic."
+  },
+  "boston medical center": {
+    "rating": 3.1,
+    "reviewCount": 855,
+    "ratingBreakdown": [
+      383,
+      59,
+      34,
+      44,
+      335
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "ER",
+        49
+      ],
+      [
+        "Compassionate doctor",
+        10
+      ],
+      [
+        "Pain management",
+        10
+      ]
+    ],
+    "summary": "Boston's largest safety-net hospital, with sharply bimodal ratings (383 five-star vs. 335 one-star out of 855) and the ER the most-discussed topic. Visible reviews are warm: a labor nurse named Carrie Smith is praised for caring for both a patient and her spouse, the Menino Pavilion team (nurses, social worker, case manager) is thanked for compassion toward an elderly patient, Dr. Morgan Harloff is credited with a successful valve replacement and clear explanations, and a five-year patient reports no bad experiences including pharmacy service."
+  },
+  "massachusetts eye and ear": {
+    "rating": 3.4,
+    "reviewCount": 591,
+    "ratingBreakdown": [
+      315,
+      32,
+      20,
+      30,
+      194
+    ],
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Emergency department",
+        60
+      ],
+      [
+        "Wait time",
+        47
+      ],
+      [
+        "Cataract surgery",
+        9
+      ],
+      [
+        "Ear surgery",
+        6
+      ]
+    ],
+    "summary": "Reviews highlight the emergency department and long waits: Google's own summary describes \"great people but understaffed and not enough rooms.\" One ED patient says staff were kind and handled his issue rapidly; another complains of being swiftly dismissed on a follow-up question to a surgeon's office and calls the front-line handling unprofessional; a diner singles out the cafeteria chef for an excellent lunch. Individual surgeons at this campus hold near-perfect ratings on their own listings."
+  },
+  "va medical center - seattle": {
+    "rating": 3.7,
+    "reviewCount": 588,
+    "asOf": "2026-10",
+    "summary": "Mostly positive in visible reviews. One veteran who's used several VA medical centers calls Seattle \"by far the best,\" praising its clean, well-kept facility and parking garage and friendly staff who walked him to his destination. Two separate total-knee-replacement patients credit orthopedic surgeon Dr. Chansky and the nursing, physical-therapy, and occupational-therapy staff at every stage; a patient seen here since 2021 reports consistently high-quality care despite the facility being \"a bit of a maze.\" The sharpest complaint says it was once great but now it's impossible to schedule appointments, with phone staff passing callers around without taking accountability."
+  },
+  "kaiser permanente capitol hill campus": {
+    "rating": 4.2,
+    "reviewCount": 1121,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Friendly staff",
+        206
+      ],
+      [
+        "Urgent care",
+        110
+      ],
+      [
+        "Wait time",
+        92
+      ],
+      [
+        "Caring staff",
+        92
+      ],
+      [
+        "Thoroughness",
+        46
+      ],
+      [
+        "Clear explanations",
+        25
+      ],
+      [
+        "Orthopedic surgeon",
+        24
+      ]
+    ],
+    "summary": "Review topics skew strongly positive — \"friendly staff\" (206 mentions), \"caring staff\" (92), \"thoroughness\" (46), and \"clear explanations\" (25) — with wait time (92 mentions) the main recurring friction point. The campus's separate Urgent Care listing at the same address is rated much lower (2.5★ from 129 reviews), so experiences differ sharply between the main clinic and urgent care. I wasn't able to read individual review text for this listing, so this summary is based on Google's own topic counts and ratings only."
+  },
+  "swedish first hill medical center": {
+    "rating": 4.3,
+    "reviewCount": 1243,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Caring staff",
+        87
+      ],
+      [
+        "Wait time",
+        20
+      ],
+      [
+        "Supportive staff",
+        12
+      ],
+      [
+        "Hip replacement surgery",
+        10
+      ],
+      [
+        "Knee surgery",
+        9
+      ],
+      [
+        "Anesthesiologist",
+        9
+      ]
+    ],
+    "summary": "Strongly positive, with \"caring staff\" the top topic by far (87 mentions). Reviewers describe exceptional nursing and support staff, one saying it was his seventh surgery and by far the best experience in terms of cleanliness, communication, and timeliness; another praises the Swedish Neuroscience Institute, where Dr. Monteith and his team quickly saw and treated a complex cerebral aneurysm. Wait time (20 mentions) is the most common complaint. Google lists this as \"Swedish Hospital - First Hill Campus.\""
+  },
+  "swedish medical center cherry hill campus": {
+    "rating": 3.3,
+    "reviewCount": 271,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Friendly staff",
+        32
+      ],
+      [
+        "Emergency care",
+        16
+      ],
+      [
+        "Brain surgery",
+        7
+      ],
+      [
+        "Surgeons",
+        5
+      ],
+      [
+        "Physical therapy",
+        4
+      ],
+      [
+        "Cardiac surgery",
+        4
+      ]
+    ],
+    "summary": "Mixed. Surgical and cardiac care draws praise: a husband's brain surgery under Dr. Miri Kim is credited with professional, caring staff from admission through the ICU, and an outpatient echocardiogram patient praised a nursing assistant who had just become an RN. Administrative and billing issues draw complaints: one patient of nearly 20 years was surprised by a $410 bill for a routine 40-minute telehealth visit with a resident, another describes a rude phone scheduler and a 10-day wait for an appointment callback, and a third had a distressing testing experience in which she felt she wasn't taken seriously."
   }
 }
