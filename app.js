@@ -1,11 +1,11 @@
 const DEFAULT_CENTER = [40.7128, -74.0060]; // New York City fallback
-// Multiple public Overpass instances, tried in order — the whole overpass-api.de
-// family (including its lz4/z subdomain mirrors) tends to go down or rate-limit
-// together, so a genuinely separate host is kept in the list as a real fallback.
+// Public Overpass instances, all queried in parallel (first good answer wins).
+// The overpass-api.de family tends to slow down or rate-limit together, so a
+// genuinely separate host (openstreetmap.fr) is kept as a real fallback.
 const OVERPASS_URLS = [
   'https://overpass-api.de/api/interpreter',
-  'https://overpass.openstreetmap.fr/api/interpreter',
-  'https://overpass.kumi.systems/api/interpreter'
+  'https://z.overpass-api.de/api/interpreter',
+  'https://overpass.openstreetmap.fr/api/interpreter'
 ];
 const NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search';
 
@@ -160,22 +160,37 @@ async function fetchHospitals(lat, lon, radius) {
     out center tags;
   `;
 
-  let lastError;
-  for (const url of OVERPASS_URLS) {
+  // Ask every mirror at once and take the first good answer: public Overpass
+  // servers regularly time out or return 504 under load, and trying them one
+  // after another meant a 20s wait per dead server.
+  const controllers = [];
+  const attempt = async (url) => {
+    const controller = new AbortController();
+    controllers.push(controller);
+    const timeoutId = setTimeout(() => controller.abort(), 25000);
     try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 20000);
       const res = await fetch(url, { method: 'POST', body: query, signal: controller.signal });
-      clearTimeout(timeoutId);
-      if (!res.ok) throw new Error(`Overpass API error: ${res.status}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       return data.elements.map(normalizeHospital).filter(Boolean);
     } catch (e) {
       console.warn(`Overpass endpoint failed (${url}):`, e.message);
-      lastError = e;
+      throw e;
+    } finally {
+      clearTimeout(timeoutId);
+    }
+  };
+
+  for (let round = 0; round < 2; round++) {
+    try {
+      const result = await Promise.any(OVERPASS_URLS.map(attempt));
+      controllers.forEach(c => c.abort());
+      return result;
+    } catch (e) {
+      if (round === 0) await new Promise(r => setTimeout(r, 1500));
     }
   }
-  throw lastError || new Error('All Overpass endpoints failed.');
+  throw new Error('All Overpass endpoints failed.');
 }
 
 function normalizeHospital(el) {
