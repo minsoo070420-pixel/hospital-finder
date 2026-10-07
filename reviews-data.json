@@ -1994,5 +1994,113 @@
       ]
     ],
     "summary": "Mixed, with strong praise for maternity and surgical-floor nursing. A mother of three says the nurses were kind and supportive throughout her third delivery; a reviewer's sister spent weeks on the 5th floor after multiple leg surgeries and called every nurse phenomenal; another couple found the facilities and nurses high-end and thorough. On the negative side, a nurse practitioner with 13 years' experience said she was deeply disappointed with her same-day surgery experience, one patient complained of a rough IV removal and rude doctors, and wait time (33 mentions) is a recurring theme."
+  },
+  "miami veterans affairs medical center": {
+    "rating": 4.0,
+    "reviewCount": 429,
+    "asOf": "2026-10",
+    "summary": "Mixed in the visible reviews. Two reviewers describe frustrating primary care — one calls it the worst VA they've been to for that purpose, another cites excessive waits and poor communication between departments over many visits. Others are deeply grateful: a veteran says back surgery ended 27 years of pain from an Army injury, and another was welcomed here after an emergency surgery in a rural Costa Rican hospital and praises the care across hundreds of practitioners. A parking shortage is also mentioned."
+  },
+  "emory university hospital midtown": {
+    "rating": 3.0,
+    "reviewCount": 1333,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Emergency room",
+        131
+      ],
+      [
+        "Wait time",
+        66
+      ],
+      [
+        "Caring staff",
+        36
+      ],
+      [
+        "Unprofessional staff",
+        19
+      ],
+      [
+        "Pain management",
+        15
+      ]
+    ],
+    "summary": "Mixed, with the ER the dominant topic (131 mentions) and wait time next (66). Positive accounts name staff: a patient thanks a nurse called Griselda for making her stay feel like family, another praises a weekend experience that included a new diabetes diagnosis and thorough explanations, and a daughter thanks the 7th-floor nursing team for her father's care. Complaints include a family that drove from Columbus for a confirmed appointment and was kept waiting, and a visitor removed from labor and delivery by a charge nurse after what she describes as rude behavior by several charge nurses on that unit."
+  },
+  "grady health system": {
+    "rating": 2.9,
+    "reviewCount": 1796,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Emergency room",
+        187
+      ],
+      [
+        "Wait time",
+        135
+      ],
+      [
+        "Rude staff",
+        73
+      ],
+      [
+        "Caring staff",
+        49
+      ],
+      [
+        "Trauma center",
+        34
+      ],
+      [
+        "Pain management",
+        23
+      ],
+      [
+        "Burn unit",
+        17
+      ]
+    ],
+    "summary": "Atlanta's public safety-net hospital, with sharply split reviews. The ER and waits dominate (187 and 135 mentions) and \"rude staff\" appears 73 times; one reviewer describes five hours in the ER waiting room with no update for a cousin. A patient says leaving Grady \"saved my life,\" countering the hospital's \"Grady saved my life\" billboards — a single, unverified account. On the other side, a lifelong patient born at Grady describes consistent respect and kindness, one patient who felt dismissed at Emory says Grady was far better, and the Burn Unit team is called some of the most compassionate and dedicated people the reviewer has met. Google lists it as \"Grady Memorial Hospital.\""
+  },
+  "national jewish health": {
+    "rating": 3.3,
+    "reviewCount": 479,
+    "asOf": "2026-10",
+    "topics": [
+      [
+        "Insurance coverage",
+        46
+      ],
+      [
+        "Scheduling",
+        28
+      ],
+      [
+        "Asthma treatment",
+        23
+      ],
+      [
+        "Pulmonology",
+        16
+      ],
+      [
+        "Sleep study",
+        14
+      ],
+      [
+        "Rheumatologist",
+        12
+      ]
+    ],
+    "summary": "A specialty respiratory and immune-disease center whose clinical care is praised more than its administration. A patient who visited at ages 8, 42, and 70 says the doctors solved problems other physicians could not, all three times, and a parent says the physician and treatment plan for their son's asthma were good. Complaints center on billing (a parent who says they will never return), scheduling (28 mentions), insurance coverage (46), slow patient-portal responses from a patient of 10+ years, an out-of-state patient who says a walking test was removed from their records, and a complaints line that reportedly goes to voicemail."
+  },
+  "san francisco general hospital": {
+    "rating": 3.4,
+    "reviewCount": 715,
+    "asOf": "2026-10",
+    "summary": "I could read only the listing-level ratings for this hospital, not individual reviews: the main listing is rated 3.4★ from 715 reviews, its emergency room has a separate listing at 3.0★ from 62 reviews, and the adult urgent care center is at 3.3★ from 51 reviews."
   }
 }

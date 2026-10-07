@@ -1587,5 +1587,64 @@
       "Medi-Cal (Medicaid)"
     ],
     "specialty": "General / Acute Care"
+  },
+  "miami veterans affairs medical center": {
+    "insurances": [
+      "Free or low-cost for enrolled, eligible U.S. veterans through VA health benefits — no private insurance needed"
+    ],
+    "specialty": "Veterans Affairs (VA)",
+    "note": "Google lists this as \"Miami VA Medical Center\" (Bruce W. Carter VA Medical Center)."
+  },
+  "emory university hospital midtown": {
+    "insurances": [
+      "Anthem Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Georgia Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "grady health system": {
+    "insurances": [
+      "Anthem Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Humana",
+      "Medicare",
+      "Georgia Medicaid",
+      "Grady financial assistance programs (verify directly)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "Google lists the main hospital as \"Grady Memorial Hospital\" — Atlanta's public safety-net hospital, with a level I trauma center and a burn unit."
+  },
+  "national jewish health": {
+    "insurances": [
+      "Anthem Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "Health First Colorado (Medicaid)"
+    ],
+    "specialty": "Respiratory & Immunology",
+    "note": "A nationally known specialty center for asthma, lung disease, and immune conditions, with a hospital on the Denver campus."
+  },
+  "san francisco general hospital": {
+    "insurances": [
+      "Anthem Blue Cross",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Health Net",
+      "Medicare",
+      "Medi-Cal (Medicaid)",
+      "Healthy San Francisco (city program for uninsured residents — verify directly)"
+    ],
+    "specialty": "General / Acute Care",
+    "note": "San Francisco's public safety-net hospital and its only level I trauma center; Google lists it as \"Zuckerberg San Francisco General Hospital and Trauma Center\"."
   }
 }
