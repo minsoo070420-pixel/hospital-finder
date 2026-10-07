@@ -164,6 +164,7 @@ async function fetchHospitals(lat, lon, radius) {
   // servers regularly time out or return 504 under load, and trying them one
   // after another meant a 20s wait per dead server.
   const controllers = [];
+  const failures = [];
   const attempt = async (url) => {
     const controller = new AbortController();
     controllers.push(controller);
@@ -174,7 +175,9 @@ async function fetchHospitals(lat, lon, radius) {
       const data = await res.json();
       return data.elements.map(normalizeHospital).filter(Boolean);
     } catch (e) {
-      console.warn(`Overpass endpoint failed (${url}):`, e.message);
+      const reason = e.name === 'AbortError' ? 'timed out' : e.message;
+      failures.push(`${new URL(url).hostname}: ${reason}`);
+      console.warn(`Overpass endpoint failed (${url}):`, reason);
       throw e;
     } finally {
       clearTimeout(timeoutId);
@@ -190,7 +193,7 @@ async function fetchHospitals(lat, lon, radius) {
       if (round === 0) await new Promise(r => setTimeout(r, 1500));
     }
   }
-  throw new Error('All Overpass endpoints failed.');
+  throw new Error(`All hospital-data servers failed (${[...new Set(failures)].join('; ')})`);
 }
 
 function normalizeHospital(el) {
@@ -570,7 +573,7 @@ async function searchHospitalsAt(lat, lon) {
     renderHospitals(hospitals);
   } catch (e) {
     console.error(e);
-    setStatus('Error fetching hospital data. Please try again in a moment.');
+    setStatus(`Error fetching hospital data. Please try again in a moment. [${e.message}]`);
   }
 }
 
