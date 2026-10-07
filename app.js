@@ -7,6 +7,10 @@ const OVERPASS_URLS = [
   'https://z.overpass-api.de/api/interpreter',
   'https://overpass.openstreetmap.fr/api/interpreter'
 ];
+// Same-origin proxy (api/overpass.js on Vercel). Public Overpass servers reject
+// browser requests from *.vercel.app, so hosted copies must go through it.
+// It simply 404s on a plain static server, in which case the mirrors above win.
+const OVERPASS_PROXY_URL = '/api/overpass';
 const NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search';
 
 let map, markersLayer, insuranceData = {}, reviewsData = {};
@@ -170,13 +174,16 @@ async function fetchHospitals(lat, lon, radius) {
     controllers.push(controller);
     const timeoutId = setTimeout(() => controller.abort(), 25000);
     try {
-      const res = await fetch(url, { method: 'POST', body: query, signal: controller.signal });
+      const isProxy = url === OVERPASS_PROXY_URL;
+      const res = isProxy
+        ? await fetch(`${url}?lat=${lat.toFixed(4)}&lon=${lon.toFixed(4)}&radius=${Math.round(radius)}`, { signal: controller.signal })
+        : await fetch(url, { method: 'POST', body: query, signal: controller.signal });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       return data.elements.map(normalizeHospital).filter(Boolean);
     } catch (e) {
       const reason = e.name === 'AbortError' ? 'timed out' : e.message;
-      failures.push(`${new URL(url).hostname}: ${reason}`);
+      failures.push(`${url === OVERPASS_PROXY_URL ? 'site proxy' : new URL(url).hostname}: ${reason}`);
       console.warn(`Overpass endpoint failed (${url}):`, reason);
       throw e;
     } finally {
@@ -186,7 +193,7 @@ async function fetchHospitals(lat, lon, radius) {
 
   for (let round = 0; round < 2; round++) {
     try {
-      const result = await Promise.any(OVERPASS_URLS.map(attempt));
+      const result = await Promise.any([OVERPASS_PROXY_URL, ...OVERPASS_URLS].map(attempt));
       controllers.forEach(c => c.abort());
       return result;
     } catch (e) {
