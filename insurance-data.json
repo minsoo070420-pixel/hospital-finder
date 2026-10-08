@@ -1646,5 +1646,90 @@
     ],
     "specialty": "General / Acute Care",
     "note": "San Francisco's public safety-net hospital and its only level I trauma center; Google lists it as \"Zuckerberg San Francisco General Hospital and Trauma Center\"."
+  },
+  "george washington university hospital": {
+    "insurances": [
+      "Aetna",
+      "CareFirst BlueCross BlueShield",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "DC Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "children's national hospital": {
+    "insurances": [
+      "Aetna",
+      "CareFirst BlueCross BlueShield",
+      "Cigna",
+      "UnitedHealthcare",
+      "DC Medicaid",
+      "Maryland Medicaid",
+      "CHIP"
+    ],
+    "specialty": "Pediatric",
+    "note": "Google lists this as a medical clinic; it is the children's hospital at 111 Michigan Ave NW."
+  },
+  "medstar georgetown university hospital": {
+    "insurances": [
+      "CareFirst BlueCross BlueShield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MedStar Family Choice (DC Medicaid)"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "howard university hospital": {
+    "insurances": [
+      "CareFirst BlueCross BlueShield",
+      "Aetna",
+      "UnitedHealthcare",
+      "Medicare",
+      "DC Medicaid"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "medstar washington hospital center": {
+    "insurances": [
+      "CareFirst BlueCross BlueShield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "MedStar Family Choice (DC Medicaid)"
+    ],
+    "specialty": "General / Acute Care"
+  },
+  "national rehabilitation hospital": {
+    "insurances": [
+      "CareFirst BlueCross BlueShield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "Medicaid"
+    ],
+    "specialty": "Long-Term Respiratory Care",
+    "note": "Operates as MedStar National Rehabilitation Hospital — an inpatient rehabilitation hospital (stroke, brain and spinal cord injury, etc.), not a general ER. Google lists it as a rehabilitation center located within MedStar Washington Hospital Center."
+  },
+  "washington dc va medical center": {
+    "insurances": [
+      "Free or low-cost for enrolled, eligible U.S. veterans through VA health benefits — no private insurance needed"
+    ],
+    "specialty": "Veterans Affairs (VA)",
+    "note": "Google lists this as Washington VA Medical Center. Care is provided through VA health benefits to enrolled veterans; eligibility and copays depend on the veteran's priority group and service-connected disability rating."
+  },
+  "bridgepoint hospital capitol hill": {
+    "insurances": [
+      "Medicare",
+      "DC Medicaid",
+      "CareFirst BlueCross BlueShield",
+      "Aetna"
+    ],
+    "specialty": "Long-Term Respiratory Care",
+    "note": "A long-term acute care hospital (patients are typically transferred from another hospital after an acute stay, with ICU, med-surg and rehab therapy) — not a general ER."
   }
 }

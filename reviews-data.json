@@ -2102,5 +2102,217 @@
     "reviewCount": 715,
     "asOf": "2026-10",
     "summary": "I could read only the listing-level ratings for this hospital, not individual reviews: the main listing is rated 3.4★ from 715 reviews, its emergency room has a separate listing at 3.0★ from 62 reviews, and the adult urgent care center is at 3.3★ from 51 reviews."
+  },
+  "george washington university hospital": {
+    "rating": 4.1,
+    "reviewCount": 7051,
+    "asOf": "2026-10",
+    "summary": "Polarized ratings (4,797 five-star vs. 1,042 one-star out of 7,051). Positive reviewers describe competent, friendly staff, a clean and organized facility, a welcoming reception, and an efficient breast center. The most common complaint topics are wait times (599 mentions in Google's topic tags) and the emergency room (457). One reviewer arrived at 7AM for a 9AM scheduled surgery; another complains of staff being loud outside patient rooms; and one reviewer alleges unequal treatment during a long wait (unverified, a single reviewer's account).",
+    "topics": [
+      [
+        "wait time",
+        599
+      ],
+      [
+        "emergency room",
+        457
+      ],
+      [
+        "caring staff",
+        448
+      ],
+      [
+        "mammogram",
+        48
+      ]
+    ],
+    "ratingBreakdown": [
+      4797,
+      606,
+      318,
+      288,
+      1042
+    ]
+  },
+  "children's national hospital": {
+    "rating": 3.5,
+    "reviewCount": 1375,
+    "asOf": "2026-10",
+    "summary": "Divided ratings (761 five-star vs. 425 one-star out of 1,375). Positive reviews praise the dermatology team, neurology scheduling and MRI, and a neuroscience team that treated a parent's infant for infantile spasms; highlighted snippets mention friendly staff and clean rooms. One highlighted negative review describes no hot water or soap and rude support staff. The most-tagged topics are the emergency room (99), wait time (68) and 'hospital for children' (65).",
+    "topics": [
+      [
+        "emergency room",
+        99
+      ],
+      [
+        "wait time",
+        68
+      ],
+      [
+        "hospital for children",
+        65
+      ],
+      [
+        "pediatric care",
+        32
+      ]
+    ],
+    "ratingBreakdown": [
+      761,
+      87,
+      43,
+      59,
+      425
+    ]
+  },
+  "medstar georgetown university hospital": {
+    "rating": 4.6,
+    "reviewCount": 10290,
+    "asOf": "2026-10",
+    "summary": "Strongly positive (8,724 five-star vs. 545 one-star out of 10,290). Reviewers repeatedly praise caring, professional nurses and staff (723 'caring staff' mentions), from parking attendants to bedside care, and a helpful neurology team. Wait time (299 mentions) is the leading complaint topic; individual negatives include an unpleasant plastic surgery consultation and one reviewer describing hostile behavior from some employees and no response to a complaint.",
+    "topics": [
+      [
+        "caring staff",
+        723
+      ],
+      [
+        "wait time",
+        299
+      ],
+      [
+        "colonoscopy",
+        36
+      ],
+      [
+        "radiology department",
+        25
+      ]
+    ],
+    "ratingBreakdown": [
+      8724,
+      667,
+      220,
+      134,
+      545
+    ]
+  },
+  "howard university hospital": {
+    "rating": 2.4,
+    "reviewCount": 593,
+    "asOf": "2026-10",
+    "summary": "Mostly negative (347 of 593 reviews are one-star vs. 159 five-star). Highlighted complaints cite staff with bad attitudes, a security guard arguing with sick people, being placed in a small room with a recliner instead of a bed, and a failed transportation arrangement for a disabled family member. Positives include an attentive labor & delivery and postpartum team, and a family who traveled from Barbados for robotic bladder cancer surgery and remain grateful.",
+    "topics": [
+      [
+        "wait time",
+        35
+      ],
+      [
+        "pain management",
+        11
+      ],
+      [
+        "bedside manner",
+        10
+      ],
+      [
+        "discharge process",
+        5
+      ]
+    ],
+    "ratingBreakdown": [
+      159,
+      40,
+      18,
+      29,
+      347
+    ]
+  },
+  "medstar washington hospital center": {
+    "rating": 4.3,
+    "reviewCount": 7174,
+    "asOf": "2026-10",
+    "summary": "Mostly positive (5,390 five-star vs. 835 one-star out of 7,174). Reviewers praise polite, caring staff (428 'caring staff' mentions), a respectful reception, and good experiences with stress testing and labor & delivery. Wait time (348 mentions) is the leading complaint topic; one highlighted review says an MRI technician refused sedation that the patient's doctor had ordered.",
+    "topics": [
+      [
+        "caring staff",
+        428
+      ],
+      [
+        "wait time",
+        348
+      ],
+      [
+        "clear explanations",
+        67
+      ],
+      [
+        "emergency room",
+        60
+      ]
+    ],
+    "ratingBreakdown": [
+      5390,
+      616,
+      174,
+      159,
+      835
+    ]
+  },
+  "national rehabilitation hospital": {
+    "rating": 4.7,
+    "reviewCount": 519,
+    "asOf": "2026-10",
+    "summary": "Very positive (456 five-star vs. 27 one-star out of 519). Reviewers praise the occupational, physical and speech therapists as professional and compassionate, and one says the staff treat patients like family. Two otherwise-satisfied reviewers describe friction with some nurses (one says it was quickly resolved after reporting; another says most nurses on the third floor east were evasive).",
+    "ratingBreakdown": [
+      456,
+      30,
+      0,
+      6,
+      27
+    ]
+  },
+  "washington dc va medical center": {
+    "rating": 3.2,
+    "reviewCount": 540,
+    "asOf": "2026-10",
+    "summary": "Divided ratings (207 five-star vs. 188 one-star out of 540). Positive reviewers describe same-day enrollment with care within two hours, outstanding care since 2017 for a long-time disabled veteran, and very good food. Highlighted negatives include frustration that information isn't posted on the website and a long list of clinical and conduct complaints from one reviewer's 10-day inpatient stay (a single, unverified account).",
+    "ratingBreakdown": [
+      207,
+      76,
+      37,
+      32,
+      188
+    ]
+  },
+  "bridgepoint hospital capitol hill": {
+    "rating": 3.1,
+    "reviewCount": 180,
+    "asOf": "2026-10",
+    "summary": "Polarized (82 five-star vs. 75 one-star out of 180). Positive reviews thank the ICU and med-surg nurses and aides and mention clean private rooms; negative ones cite poor customer service from security and nursing staff, and one family says only a few staff showed them compassion and respect.",
+    "topics": [
+      [
+        "ICU",
+        21
+      ],
+      [
+        "physical therapy",
+        15
+      ],
+      [
+        "occupational therapy",
+        5
+      ],
+      [
+        "speech therapists",
+        4
+      ]
+    ],
+    "ratingBreakdown": [
+      82,
+      11,
+      3,
+      9,
+      75
+    ]
   }
 }
